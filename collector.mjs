@@ -6,10 +6,11 @@ const OUT_DIR = process.env.OUT_DIR || 'out';
 const PREVIOUS_FILE = process.env.PREVIOUS_FILE || '/tmp/gold-pilot-prev.json';
 const MAX_POINTS = 8 * 24 * 12; // 8 dni przy interwale 5 min
 
-const UA = 'Mozilla/5.0 (GoldPilotCloud/1.0; +https://github.com/komininstal-sketch/gold-pilot-cloud)';
+const UA = 'Mozilla/5.0 (GoldPilotCloud/1.1; +https://github.com/komininstal-sketch/gold-pilot-cloud)';
 
 function n(v){
   if(v===null||v===undefined)return null;
+  if(typeof v==='number')return Number.isFinite(v)?v:null;
   let s=String(v).trim().replace(/\u00a0/g,' ').replace(/[’']/g,'');
   s=s.replace(/[^0-9,.-]/g,'').trim();
   if(!s)return null;
@@ -18,8 +19,9 @@ function n(v){
     s=di>ci?s.replace(/,/g,''):s.replace(/\./g,'').replace(',','.');
   }else if(ci>=0){
     s=(s.length-ci-1===2)?s.replace(',','.'):s.replace(/,/g,'');
-  }else if(di>=0 && s.length-di-1!==2){
-    s=s.replace(/\./g,'');
+  }else if(di>=0){
+    const decimals=s.length-di-1;
+    if(decimals===3 && /^\d{1,3}(\.\d{3})+$/.test(s))s=s.replace(/\./g,'');
   }
   const x=Number(s);
   return Number.isFinite(x)?x:null;
@@ -35,11 +37,9 @@ async function fetchText(url,{timeout=9000}={}){
   }finally{clearTimeout(timer);}
 }
 
-async function fetchJson(url,opts){
-  return JSON.parse(await fetchText(url,opts));
-}
+async function fetchJson(url,opts){return JSON.parse(await fetchText(url,opts));}
 
-async function firstOk(label, fns){
+async function firstOk(label,fns){
   const errors=[];
   for(const fn of fns){
     try{return {ok:true,value:await fn(),error:null};}
@@ -55,6 +55,8 @@ function stripHtml(s=''){
     .replace(/<[^>]+>/g,' ')
     .replace(/&nbsp;/gi,' ')
     .replace(/&amp;/gi,'&')
+    .replace(/&#39;/gi,"'")
+    .replace(/&euro;/gi,'€')
     .replace(/\s+/g,' ')
     .trim();
 }
@@ -68,22 +70,27 @@ function near(text,needle,radius=3500){
 function rxPrice(text,arr){
   for(const rx of arr){
     const m=String(text).match(rx);
-    if(m){const v=n(m[1]); if(v>0)return v;}
+    if(m){const v=n(m[1]);if(v>0)return v;}
   }
   return null;
 }
 
-async function readerOrDirect(url){
-  return await firstOk(url,[
-    ()=>fetchText(url),
-    ()=>fetchText('https://r.jina.ai/'+url,{timeout:12000})
-  ]);
+async function dealerText(url){
+  const errors=[];
+  for(const target of ['https://r.jina.ai/'+url,url]){
+    try{
+      const raw=await fetchText(target,{timeout:12000});
+      const text=target.startsWith('https://r.jina.ai/')?raw:stripHtml(raw);
+      if(text&&text.length>100)return text;
+    }catch(e){errors.push(String(e?.message||e));}
+  }
+  throw new Error(errors.join(' | ')||'Brak tekstu strony');
 }
 
 async function getGold(){
   const j=await fetchJson('https://api.gold-api.com/price/XAU');
   const p=n(j?.price);
-  if(!(p>0))throw new Error('Brak XAU/USD');
+  if(!(p>0&&p<100000))throw new Error('Brak XAU/USD');
   return {price:p,updatedAt:j?.updatedAt||j?.updated_at||null};
 }
 
@@ -105,7 +112,7 @@ async function yahoo(symbol){
 async function frankfurter(from,to){
   const j=await fetchJson(`https://api.frankfurter.dev/v2/rate/${from}/${to}`);
   const rate=n(j?.rate);
-  if(!(rate>0))throw new Error(`Brak ${from}/${to}`);
+  if(!(rate>0&&rate<1000))throw new Error(`Brak ${from}/${to}`);
   return rate;
 }
 
@@ -118,30 +125,27 @@ async function nbpGold(){
 
 async function tavex(){
   const url='https://tavex.pl/zloto/zlota-sztabka-argor-heraeus-10-g/';
-  const r=await readerOrDirect(url); if(!r.ok)throw new Error(r.error);
-  const text=stripHtml(r.value);
+  const text=await dealerText(url);
   const s=near(text,'Sztabka złota 10g Argor-Heraeus',5500)||text;
   const sale=rxPrice(s,[/Aktualna cena sprzedaży 1 szt\.?\s*([\d\s.,]+)\s*zł/i,/Sprzedaż\s+Skup\s+Spread\s+1-2\s+([\d\s.,]+)\s*zł/i,/Cena łączna\s+([\d\s.,]+)\s*zł/i]);
   const buy=rxPrice(s,[/Aktualna cena skupu 1 szt\.?\s*([\d\s.,]+)\s*zł/i,/Skup\s+([\d\s.,]+)\s*zł/i]);
-  if(!(sale>0))throw new Error('Parser Tavex: brak ceny sprzedaży');
+  if(!(sale>=1000&&sale<=20000))throw new Error('Parser Tavex: brak ceny sprzedaży');
   return {name:'Tavex Polska',currency:'PLN',sale,buyback:buy,url};
 }
 
 async function stonex(){
   const url='https://stonexbullion.com/en/gold-bars/10g/10g-gold-bar-argor-heraeus/';
-  const r=await readerOrDirect(url); if(!r.ok)throw new Error(r.error);
-  const text=stripHtml(r.value);
-  const s=near(text,'10g Gold Bar | Argor-Heraeus',5500)||text;
-  const sale=rxPrice(s,[/10g Gold Bar \| Argor-Heraeus\s*€\s*([\d\s.,]+)/i,/€\s*([\d,.]+)\s*\|\s*Gross/i,/€\s*([\d,.]+)\s+Gross/i]);
-  const buy=rxPrice(s,[/Buy back\s*€\s*([\d\s.,]+)/i,/Buyback\s*€\s*([\d\s.,]+)/i]);
-  if(!(sale>0))throw new Error('Parser StoneX: brak ceny');
+  const text=await dealerText(url);
+  const s=near(text,'10g Gold Bar | Argor-Heraeus',4500)||text;
+  const sale=rxPrice(s,[/10g Gold Bar\s*\|\s*Argor-Heraeus[\s\S]{0,120}?€\s*([\d,.]+)/i,/€\s*([\d,.]+)\s*\|\s*Gross incl\. VAT/i]);
+  const buy=rxPrice(s,[/Buy back[\s\S]{0,100}?€\s*([\d,.]+)/i,/#### Buy back[\s\S]{0,100}?€\s*([\d,.]+)/i]);
+  if(!(sale>=200&&sale<=5000))throw new Error('Parser StoneX: brak ceny');
   return {name:'StoneX Bullion',currency:'EUR',sale,buyback:buy,url};
 }
 
 async function degussa(){
   const url='https://degussa.com/ch-en/header_navigation/prices/price-list/';
-  const r=await readerOrDirect(url); if(!r.ok)throw new Error(r.error);
-  const text=stripHtml(r.value).replace(/\u00a0/g,' ');
+  const text=(await dealerText(url)).replace(/\u00a0/g,' ');
   let s=near(text,'100109/01 Gold bar - 10 g - Degussa New Design',1800);
   if(!s)s=near(text,'Gold bar - 10 g - Degussa New Design',1800)||text;
   const exact=s.match(/(?:100109\/01\s*)?Gold bar\s*-\s*10 g\s*-\s*Degussa New Design[\s\S]{0,300}?Purchase net:\s*CHF\s*([\d'’.,\s]+?)\s+Sell:\s*CHF\s*([\d'’.,\s]+?)\s+Last price update/i);
@@ -156,21 +160,25 @@ async function degussa(){
 
 async function philoro(){
   const url='https://philoro.ch/shop/goldbarren';
-  const r=await readerOrDirect(url); if(!r.ok)throw new Error(r.error);
-  const text=stripHtml(r.value);
-  let s=near(text,'Goldbarren 10 g diverse Hersteller',3500);
-  if(!s)s=near(text,'Gold bar 10 g various manufacturer',3500)||text;
-  const sale=rxPrice(s,[/Kaufen:\s*([\d'’.,\s]+)\s*CHF/i,/buy:\s*CHF\s*([\d'’.,\s]+)/i,/Buy:\s*CHF\s*([\d'’.,\s]+)/i]);
-  const buy=rxPrice(s,[/Verkaufen:\s*([\d'’.,\s]+)\s*CHF/i,/sell:\s*CHF\s*([\d'’.,\s]+)/i,/Sell:\s*CHF\s*([\d'’.,\s]+)/i]);
-  if(!(sale>0))throw new Error('Parser philoro: brak ceny');
+  const text=await dealerText(url);
+  let s=near(text,'Goldbarren 10 g diverse Hersteller',1200);
+  if(!s)s=near(text,'Goldbarren 10 g - philoro',1200)||text;
+  const exact=s.match(/Goldbarren 10 g(?: diverse Hersteller| - philoro)?[\s\S]{0,120}?Kaufen:\s*([\d.'’]+,\d{2})\s*CHF[\s\S]{0,80}?Verkaufen:\s*([\d.'’]+,\d{2})\s*CHF/i);
+  let sale=exact?n(exact[1]):null;
+  let buy=exact?n(exact[2]):null;
+  if(!(sale>0))sale=rxPrice(s,[/Kaufen:\s*([\d.'’]+,\d{2})\s*CHF/i]);
+  if(!(buy>0))buy=rxPrice(s,[/Verkaufen:\s*([\d.'’]+,\d{2})\s*CHF/i]);
+  if(!(sale>=500&&sale<=5000))throw new Error('Parser philoro: brak/nieprawidłowa cena 10 g');
+  if(!(buy>=500&&buy<=5000))buy=null;
   return {name:'philoro Switzerland',currency:'CHF',sale,buyback:buy,url};
 }
 
 function convertDealer(d,eurPln,chfPln){
   if(!d)return null;
   const fx=d.currency==='EUR'?eurPln:d.currency==='CHF'?chfPln:1;
-  const salePln=d.sale>0&&fx>0?d.sale*fx:null;
-  const buybackPln=d.buyback>0&&fx>0?d.buyback*fx:null;
+  if(!(fx>0))return {...d,salePln:null,buybackPln:null};
+  const salePln=d.sale>0?d.sale*fx:null;
+  const buybackPln=d.buyback>0?d.buyback*fx:null;
   return {...d,salePln,buybackPln};
 }
 
@@ -233,8 +241,13 @@ const point={
 const errors=[goldR,usdR,gcR,eurR,chfR,nbpR,tavexR,stonexR,degussaR,philoroR].filter(x=>!x.ok).map(x=>x.error);
 const prev=await readPrevious();
 let points=Array.isArray(prev?.points)?prev.points:[];
+// Odfiltruj błędne punkty z pierwszego testowego builda i inne oczywiste anomalie.
+points=points.filter(x=>{
+  const m=x?.market||{};
+  return n(m.xauUsd)>100&&n(m.xauUsd)<100000&&n(m.usdPln)>1&&n(m.usdPln)<20&&n(m.plnG)>10&&n(m.plnG)<5000;
+});
 const last=points.at(-1);
-if(last && Math.abs(Number(last.ts)-point.ts)<120000) points[points.length-1]=point;
+if(last&&Math.abs(Number(last.ts)-point.ts)<120000)points[points.length-1]=point;
 else points.push(point);
 points=points.filter(x=>Number(x?.ts)>Date.now()-8*24*3600*1000).slice(-MAX_POINTS);
 
@@ -250,4 +263,4 @@ await Promise.all([
 ]);
 
 console.log(JSON.stringify({generatedAt:iso,market:point.market,dealers:Object.fromEntries(Object.entries(point.dealers).map(([k,v])=>[k,v?.salePln??null])),errors,points:points.length},null,2));
-if(!(xau>0&&usdPln>0&&plnG>0))process.exitCode=2;
+if(!(xau>0&&xau<100000&&usdPln>1&&usdPln<20&&plnG>10&&plnG<5000))process.exitCode=2;
