@@ -7,10 +7,10 @@ on:
       - collector.mjs
       - dealer-patch.mjs
       - analytics.mjs
+      - analytics-plus.mjs
       - .github/workflows/collect.yml
   workflow_dispatch:
   schedule:
-    # Co 5 minut, z przesunięciem od pełnej godziny aby ograniczyć opóźnienia GitHub Actions.
     - cron: '2/5 * * * *'
 
 permissions:
@@ -58,7 +58,7 @@ jobs:
           set -e
           OUT_DIR=/tmp/gold-pilot-out node dealer-patch.mjs
 
-      - name: Zbierz analitykę, newsy i historię zmian
+      - name: Zbierz analitykę i historię zmian
         shell: bash
         run: |
           set -e
@@ -66,6 +66,15 @@ jobs:
           PREV_ANALYTICS=/tmp/gold-pilot-prev-analytics.json \
           PREV_TIMELINE=/tmp/gold-pilot-prev-timeline.json \
           node analytics.mjs
+
+      - name: Uzupełnij Fed, newsy, research i Silnik Decyzyjny
+        shell: bash
+        run: |
+          set -e
+          OUT_DIR=/tmp/gold-pilot-out \
+          PREV_ANALYTICS=/tmp/gold-pilot-prev-analytics.json \
+          PREV_TIMELINE=/tmp/gold-pilot-prev-timeline.json \
+          node analytics-plus.mjs
 
       - name: Opublikuj najnowszą historię w gałęzi data
         shell: bash
@@ -79,7 +88,6 @@ jobs:
 
           git config user.name "Gold Pilot Cloud"
           git config user.email "gold-pilot-cloud@users.noreply.github.com"
-
           git switch --orphan data-publish
           git rm -rf . >/dev/null 2>&1 || true
           mkdir -p data
