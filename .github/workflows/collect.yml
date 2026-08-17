@@ -8,6 +8,7 @@ on:
       - dealer-patch.mjs
       - analytics.mjs
       - analytics-plus.mjs
+      - news.mjs
       - .github/workflows/collect.yml
   workflow_dispatch:
   schedule:
@@ -23,7 +24,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 6
 
     steps:
       - name: Pobierz kod kolektora
@@ -35,11 +36,12 @@ jobs:
         shell: bash
         run: |
           set -e
-          rm -f /tmp/gold-pilot-prev.json /tmp/gold-pilot-prev-analytics.json /tmp/gold-pilot-prev-timeline.json
+          rm -f /tmp/gold-pilot-prev.json /tmp/gold-pilot-prev-analytics.json /tmp/gold-pilot-prev-timeline.json /tmp/gold-pilot-prev-news.json
           if git fetch origin data:refs/remotes/origin/data; then
             git show refs/remotes/origin/data:data/history.json > /tmp/gold-pilot-prev.json || true
             git show refs/remotes/origin/data:data/analytics-latest.json > /tmp/gold-pilot-prev-analytics.json || true
             git show refs/remotes/origin/data:data/timeline.json > /tmp/gold-pilot-prev-timeline.json || true
+            git show refs/remotes/origin/data:data/news.json > /tmp/gold-pilot-prev-news.json || true
           fi
 
       - name: Zbierz dane rynkowe i dealerów
@@ -76,6 +78,14 @@ jobs:
           PREV_TIMELINE=/tmp/gold-pilot-prev-timeline.json \
           node analytics-plus.mjs
 
+      - name: Zbierz wiadomości rynkowe według kategorii
+        shell: bash
+        run: |
+          set -e
+          OUT_DIR=/tmp/gold-pilot-out \
+          PREV_NEWS=/tmp/gold-pilot-prev-news.json \
+          node news.mjs
+
       - name: Opublikuj najnowszą historię w gałęzi data
         shell: bash
         run: |
@@ -85,6 +95,7 @@ jobs:
           test -f /tmp/gold-pilot-out/health.json
           test -f /tmp/gold-pilot-out/analytics-latest.json
           test -f /tmp/gold-pilot-out/timeline.json
+          test -f /tmp/gold-pilot-out/news.json
 
           git config user.name "Gold Pilot Cloud"
           git config user.email "gold-pilot-cloud@users.noreply.github.com"
@@ -94,7 +105,7 @@ jobs:
           cp /tmp/gold-pilot-out/*.json data/
 
           cat > index.html <<'HTML'
-          <!doctype html><html lang="pl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gold Pilot Cloud</title><body style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0b0f14;color:#eee;padding:24px"><h1>Gold Pilot Cloud</h1><p>Dane i analityka zbierane automatycznie przez GitHub Actions.</p><ul><li><a style="color:#e2bf62" href="data/latest.json">latest.json</a></li><li><a style="color:#e2bf62" href="data/history.json">history.json</a></li><li><a style="color:#e2bf62" href="data/analytics-latest.json">analytics-latest.json</a></li><li><a style="color:#e2bf62" href="data/timeline.json">timeline.json</a></li><li><a style="color:#e2bf62" href="data/health.json">health.json</a></li></ul></body></html>
+          <!doctype html><html lang="pl"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gold Pilot Cloud</title><body style="font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#0b0f14;color:#eee;padding:24px"><h1>Gold Pilot Cloud</h1><p>Dane, analityka i wiadomości zbierane automatycznie przez GitHub Actions.</p><ul><li><a style="color:#e2bf62" href="data/latest.json">latest.json</a></li><li><a style="color:#e2bf62" href="data/history.json">history.json</a></li><li><a style="color:#e2bf62" href="data/analytics-latest.json">analytics-latest.json</a></li><li><a style="color:#e2bf62" href="data/timeline.json">timeline.json</a></li><li><a style="color:#e2bf62" href="data/news.json">news.json</a></li><li><a style="color:#e2bf62" href="data/health.json">health.json</a></li></ul></body></html>
           HTML
 
           git add data index.html
