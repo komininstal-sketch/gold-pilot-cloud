@@ -82,6 +82,9 @@ jobs:
         shell: bash
         run: |
           set -e
+          # Wersja 7.4 zawsze pobiera świeży feed wiadomości. Dzięki temu
+          # poprawki parsera i nowe publikacje nie czekają na stary cache.
+          rm -f /tmp/gold-pilot-prev-news.json
           OUT_DIR=/tmp/gold-pilot-out \
           PREV_NEWS=/tmp/gold-pilot-prev-news.json \
           node news.mjs
