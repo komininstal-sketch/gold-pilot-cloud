@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 
 const OUT_DIR=process.env.OUT_DIR||'/tmp/gold-pilot-out';
 const PREV_NEWS=process.env.PREV_NEWS||'/tmp/gold-pilot-prev-news.json';
-const UA='Mozilla/5.0 (GoldPilotCloud-News/1.0; +https://github.com/komininstal-sketch/gold-pilot-cloud)';
+const UA='Mozilla/5.0 (GoldPilotCloud-News/1.1; +https://github.com/komininstal-sketch/gold-pilot-cloud)';
 const now=Date.now();
 const iso=new Date(now).toISOString();
 
@@ -11,11 +11,8 @@ function clean(s=''){
     .replace(/!\[[^\]]*\]\([^)]+\)/g,' ')
     .replace(/\[([^\]]+)\]\([^)]+\)/g,'$1')
     .replace(/<[^>]+>/g,' ')
-    .replace(/&amp;/gi,'&')
-    .replace(/&quot;/gi,'"')
-    .replace(/&#39;/g,"'")
-    .replace(/\s+/g,' ')
-    .trim();
+    .replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/g,"'")
+    .replace(/\s+/g,' ').trim();
 }
 function hash(s=''){let h=2166136261;for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619);}return (h>>>0).toString(36);}
 function clamp(x,a=-3.5,b=3.5){return Math.max(a,Math.min(b,x));}
@@ -25,6 +22,14 @@ async function fetchJson(url,timeout=14000){return JSON.parse(await fetchText(ur
 async function reader(url){try{return await fetchText('https://r.jina.ai/'+url,15000);}catch{return await fetchText(url,12000);}}
 function ageMin(stamp){if(!stamp)return Infinity;const t=new Date(stamp).getTime();return Number.isFinite(t)?(now-t)/60000:Infinity;}
 
+function allowedDomain(domain=''){
+  const d=domain.toLowerCase().replace(/^www\./,'');
+  return [
+    'reuters.com','apnews.com','fxmag.pl','bankier.pl','stooq.pl','investing.com',
+    'marketwatch.com','cnbc.com','kitco.com','fxstreet.com','finance.yahoo.com',
+    'bloomberg.com','wsj.com','businessinsider.com'
+  ].some(x=>d===x||d.endsWith('.'+x));
+}
 function sourceName(domain=''){
   const d=domain.toLowerCase();
   if(d.includes('reuters.com'))return 'Reuters';
@@ -35,14 +40,20 @@ function sourceName(domain=''){
   if(d.includes('investing.com'))return 'Investing.com';
   if(d.includes('marketwatch.com'))return 'MarketWatch';
   if(d.includes('cnbc.com'))return 'CNBC';
+  if(d.includes('kitco.com'))return 'Kitco';
+  if(d.includes('fxstreet.com'))return 'FXStreet';
+  if(d.includes('bloomberg.com'))return 'Bloomberg';
+  if(d.includes('wsj.com'))return 'WSJ';
+  if(d.includes('finance.yahoo.com'))return 'Yahoo Finance';
   return domain.replace(/^www\./,'')||'Źródło';
 }
 function sourceWeight(domain=''){
   const d=domain.toLowerCase();
-  if(d.includes('reuters.com')||d.includes('apnews.com'))return 1.20;
-  if(d.includes('fxmag.pl')||d.includes('bankier.pl')||d.includes('stooq.pl'))return 1.05;
-  if(d.includes('cnbc.com')||d.includes('marketwatch.com'))return 1.00;
-  return .90;
+  if(d.includes('reuters.com')||d.includes('apnews.com'))return 1.25;
+  if(d.includes('bloomberg.com')||d.includes('wsj.com'))return 1.15;
+  if(d.includes('fxmag.pl')||d.includes('bankier.pl')||d.includes('stooq.pl'))return 1.08;
+  if(d.includes('kitco.com')||d.includes('fxstreet.com'))return 1.05;
+  return 1.00;
 }
 function parseSeen(x){
   if(!x)return now;
@@ -59,41 +70,38 @@ function inferImpact(title=''){
   const s=title.toLowerCase();
   let gold=0,usd=0,usdpln=0,importance=1;
   const hit=rx=>rx.test(s);
-
   if(hit(/war|wojn|attack|atak|sanction|sankcj|iran|ukrain|russia|rosj|israel|nato|taiwan|geopol|tariff|cł/)){gold+=1.4;usd+=.4;usdpln+=.4;importance=3;}
   if(hit(/ceasefire|zawieszenie broni|de-?escal|deeskal/)){gold-=1.0;usd-=.2;importance=2;}
   if(hit(/rate cut|cuts rates|obniżk.*st[oó]p|dovish|gołębi|weaker dollar|słabsz.*dolar|dollar falls|dolar spada/)){gold+=1.5;usd-=1.4;usdpln-=1.0;importance=3;}
   if(hit(/rate hike|podwyżk.*st[oó]p|hawkish|jastrzębi|strong dollar|siln.*dolar|dollar rises|dolar rośnie|yields rise|rentownoś.*rosn/)){gold-=1.4;usd+=1.5;usdpln+=1.0;importance=3;}
-  if(hit(/inflation|inflacja|cpi|ppi|pce/)){importance=Math.max(importance,2);}
-  if(hit(/jobs|payroll|employment|bezroboc|nfp/)){importance=Math.max(importance,3);}
-  if(hit(/fed|fomc|powell|ecb|nbp|rpp|bank central/)){importance=Math.max(importance,3);}
+  if(hit(/inflation|inflacja|cpi|ppi|pce/))importance=Math.max(importance,2);
+  if(hit(/jobs|payroll|employment|bezroboc|nfp/))importance=Math.max(importance,3);
+  if(hit(/fed|fomc|powell|ecb|nbp|rpp|bank central/))importance=Math.max(importance,3);
   if(hit(/stocks fall|stocks slide|selloff|wyprzedaż|giełd.*spad|akcj.*spad|risk-off/)){gold+=.9;usd+=.3;importance=Math.max(importance,2);}
   if(hit(/stocks rise|rally|giełd.*wzrost|akcj.*rosn|risk-on/)){gold-=.4;importance=Math.max(importance,2);}
-  if(hit(/gold rises|gold up|złot.*w g[oó]r|cena złota rośnie|xau.*rise/)){gold+=.5;}
-  if(hit(/gold falls|gold down|złot.*spad|cena złota spada|xau.*fall/)){gold-=.5;}
+  if(hit(/gold rises|gold up|złot.*w g[oó]r|cena złota rośnie|xau.*rise/))gold+=.5;
+  if(hit(/gold falls|gold down|złot.*spad|cena złota spada|xau.*fall/))gold-=.5;
   if(hit(/złoty umacnia|pln.*umac|stronger zloty/)){usdpln-=1.2;importance=Math.max(importance,2);}
   if(hit(/złoty słab|pln.*słab|weaker zloty/)){usdpln+=1.2;importance=Math.max(importance,2);}
-
   return {goldImpact:clamp(gold),usdImpact:clamp(usd),usdPlnImpact:clamp(usdpln),importance};
 }
 
-const SOURCE_FILTER='(domainis:reuters.com OR domainis:apnews.com OR domainis:fxmag.pl OR domainis:bankier.pl OR domainis:stooq.pl OR domainis:investing.com OR domainis:marketwatch.com OR domainis:cnbc.com)';
 const CATEGORIES=[
-  {id:'gold',label:'Złoto i metale',query:`(gold OR zloto OR złoto OR XAUUSD OR "XAU/USD" OR silver OR srebro OR "precious metals") ${SOURCE_FILTER}`},
-  {id:'fx',label:'Waluty',query:`(dollar OR dolar OR forex OR "USD/PLN" OR USDPLN OR "EUR/USD" OR EURUSD OR zloty OR złoty OR PLN) ${SOURCE_FILTER}`},
-  {id:'rates',label:'Fed, stopy i obligacje',query:`("Federal Reserve" OR FOMC OR Fed OR "interest rates" OR stopy OR yields OR rentownosci OR rentowności OR bonds OR obligacje OR Treasury) ${SOURCE_FILTER}`},
-  {id:'stocks',label:'Giełdy i akcje',query:`(stocks OR equities OR akcje OR gielda OR giełda OR "S&P 500" OR Nasdaq OR "Dow Jones" OR WIG20 OR GPW) ${SOURCE_FILTER}`},
-  {id:'economy',label:'Gospodarka',query:`(economy OR gospodarka OR GDP OR PKB OR CPI OR inflation OR inflacja OR employment OR payrolls OR recession OR recesja) ${SOURCE_FILTER}`},
-  {id:'poland',label:'Polska',query:`(Poland OR Polska OR Polish OR polski OR zloty OR złoty OR PLN OR NBP OR RPP OR GPW OR WIG20) ${SOURCE_FILTER}`},
-  {id:'geo',label:'Geopolityka',query:`(Ukraine OR Ukraina OR Russia OR Rosja OR Iran OR Israel OR Izrael OR China OR Chiny OR Taiwan OR Tajwan OR sanctions OR sankcje OR tariffs OR cla OR cła OR war OR wojna OR ceasefire OR NATO) ${SOURCE_FILTER}`}
+  {id:'gold',label:'Złoto i metale',query:'(gold OR XAUUSD OR "XAU/USD" OR silver OR "precious metals")'},
+  {id:'fx',label:'Waluty',query:'(dollar OR forex OR "USD/PLN" OR USDPLN OR "EUR/USD" OR EURUSD OR zloty OR PLN)'},
+  {id:'rates',label:'Fed, stopy i obligacje',query:'("Federal Reserve" OR FOMC OR Fed OR "interest rates" OR yields OR bonds OR Treasury)'},
+  {id:'stocks',label:'Giełdy i akcje',query:'(stocks OR equities OR "S&P 500" OR Nasdaq OR "Dow Jones" OR WIG20 OR GPW)'},
+  {id:'economy',label:'Gospodarka',query:'(economy OR GDP OR CPI OR inflation OR employment OR payrolls OR recession)'},
+  {id:'poland',label:'Polska',query:'(Poland OR Polish OR zloty OR PLN OR NBP OR GPW OR WIG20)'},
+  {id:'geo',label:'Geopolityka',query:'(Ukraine OR Russia OR Iran OR Israel OR China OR Taiwan OR sanctions OR tariffs OR war OR ceasefire OR NATO)'}
 ];
 
 async function gdeltCategory(cat){
   const url='https://api.gdeltproject.org/api/v2/doc/doc?'+
     'query='+encodeURIComponent(cat.query)+
-    '&mode=artlist&format=json&maxrecords=35&timespan=36h&sort=datedesc';
+    '&mode=artlist&format=json&maxrecords=75&timespan=36h&sort=datedesc';
   try{
-    const j=await fetchJson(url,15000);
+    const j=await fetchJson(url,16000);
     const arr=Array.isArray(j?.articles)?j.articles:[];
     return arr.map(a=>{
       const title=clean(a.title||'');
@@ -105,24 +113,37 @@ async function gdeltCategory(cat){
         title,url:a.url||'',domain,source:sourceName(domain),ts,seen:new Date(ts).toISOString(),
         ...imp,sourceWeight:sourceWeight(domain),origin:'GDELT'
       };
-    }).filter(x=>x.title.length>12&&/^https?:\/\//.test(x.url));
-  }catch(e){return [];}
+    }).filter(x=>x.title.length>18&&/^https?:\/\//.test(x.url)&&allowedDomain(x.domain));
+  }catch{return [];}
 }
 
-function parseReaderLinks(text,category,categoryLabel,source,urlBase){
+function directArticleAllowed(category,title,url){
+  if(title.length<28)return false;
+  let u;try{u=new URL(url);}catch{return false;}
+  const host=u.hostname.toLowerCase();
+  const path=u.pathname.toLowerCase();
+  if(!host.endsWith('fxmag.pl')||host.startsWith('admin.'))return false;
+  if(/\/ranking\/|\/kalkulator|\/tag\/|\/autor\/|\/kontakt|\/regulamin|\/polityka|\/newsletter/.test(path))return false;
+  if(/^(waluty|giełda|gielda|gospodarka|złoto|zloto|surowce|inwestowanie|brokerzy|indeksy|kursy walut)$/i.test(title.trim()))return false;
+
+  if(category==='gold')return (/\/surowce\//.test(path)||/\/inwestowanie\//.test(path)) && /złot|zlot|gold|xau|srebr|silver|kruszc/i.test(title);
+  if(category==='fx')return /\/waluty\//.test(path) && !/\/waluty\/?$/.test(path);
+  if(category==='stocks')return /\/gielda\//.test(path) && !/\/gielda\/?$/.test(path);
+  if(category==='economy')return /\/gospodarka\//.test(path) && !/\/gospodarka\/?$/.test(path);
+  return false;
+}
+
+function parseReaderLinks(text,category,categoryLabel,source){
   const out=[];
-  const rx=/\[([^\]]{18,220})\]\((https?:\/\/[^)]+)\)/g;
+  const rx=/\[([^\]]{18,240})\]\((https?:\/\/[^)]+)\)/g;
   let m;
-  while((m=rx.exec(String(text||'')))&&out.length<18){
+  while((m=rx.exec(String(text||'')))&&out.length<20){
     const title=clean(m[1]);
     const url=m[2];
-    if(!title||/facebook|youtube|linkedin|twitter|instagram|cookie|privacy|kontakt|contact|reklama/i.test(title))continue;
+    if(!directArticleAllowed(category,title,url))continue;
     const domain=(()=>{try{return new URL(url).hostname.toLowerCase();}catch{return '';}})();
     const imp=inferImpact(title);
-    out.push({
-      id:hash(`${category}|${title}|${url}`),category,categoryLabel,title,url,domain,
-      source,ts:now,seen:iso,...imp,sourceWeight:1.05,origin:'DIRECT'
-    });
+    out.push({id:hash(`${category}|${title}|${url}`),category,categoryLabel,title,url,domain,source,ts:now,seen:iso,...imp,sourceWeight:1.08,origin:'DIRECT'});
   }
   return out;
 }
@@ -135,7 +156,7 @@ async function fxmagDirect(){
     ['economy','Gospodarka','FXMAG','https://www.fxmag.pl/gospodarka']
   ];
   const all=[];
-  await Promise.all(defs.map(async d=>{try{const t=await reader(d[3]);all.push(...parseReaderLinks(t,d[0],d[1],d[2],d[3]));}catch{}}));
+  await Promise.all(defs.map(async d=>{try{const t=await reader(d[3]);all.push(...parseReaderLinks(t,d[0],d[1],d[2]));}catch{}}));
   return all;
 }
 
@@ -143,7 +164,7 @@ function dedupe(items){
   const map=new Map();
   for(const x of items){
     if(!x.title||!x.url)continue;
-    const normalized=x.title.toLowerCase().replace(/[^a-ząćęłńóśźż0-9]+/gi,' ').trim().slice(0,120);
+    const normalized=x.title.toLowerCase().replace(/[^a-ząćęłńóśźż0-9]+/gi,' ').trim().slice(0,130);
     const key=normalized||x.url;
     const prev=map.get(key);
     if(!prev || (x.sourceWeight||0)>(prev.sourceWeight||0) || x.ts>prev.ts)map.set(key,x);
@@ -164,10 +185,14 @@ const categoryResults=await Promise.all(CATEGORIES.map(gdeltCategory));
 const direct=await fxmagDirect();
 let items=dedupe(categoryResults.flat().concat(direct));
 
-// Usuń ewidentną nawigację / strony kategorii.
-items=items.filter(x=>!/^złoto$/i.test(x.title)&&!/^waluty$/i.test(x.title)&&!/^gospodarka$/i.test(x.title)&&!/^giełda$/i.test(x.title));
+const prevById=new Map((previous?.items||[]).map(x=>[x.id,x]));
+for(const x of items){
+  const p=prevById.get(x.id);
+  if(x.origin==='DIRECT'&&p?.ts){x.ts=p.ts;x.seen=p.seen||new Date(p.ts).toISOString();}
+  x.firstSeenTs=p?.firstSeenTs||x.ts||now;
+}
 
-// Ranking: świeżość + znaczenie + jakość źródła.
+items=items.filter(x=>x.title.length>=20 && !/kalkulator|lokaty|konto oszczędnościowe|kantor internetowy|brokerzy zagraniczni|profil icon/i.test(x.title));
 items.forEach(x=>{
   const ageH=Math.max(0,(now-x.ts)/3600000);
   const fresh=Math.max(0,36-ageH)/36;
@@ -175,17 +200,11 @@ items.forEach(x=>{
     (x.category==='gold'?8:0)+(x.category==='fx'?6:0)+(x.category==='rates'?6:0)+(x.category==='poland'?5:0);
 });
 items.sort((a,b)=>b.rank-a.rank || b.ts-a.ts);
-items=items.slice(0,100);
+items=items.slice(0,120);
 
 const counts={};
 for(const c of CATEGORIES)counts[c.id]=items.filter(x=>x.category===c.id).length;
-
-const output={
-  schema:1,generatedAt:iso,fetchedAt:iso,
-  categories:CATEGORIES.map(({id,label})=>({id,label,count:counts[id]||0})),
-  items,
-  summary:{total:items.length,highImportance:items.filter(x=>x.importance>=3).length,counts}
-};
+const output={schema:1,generatedAt:iso,fetchedAt:iso,categories:CATEGORIES.map(({id,label})=>({id,label,count:counts[id]||0})),items,summary:{total:items.length,highImportance:items.filter(x=>x.importance>=3).length,counts}};
 
 await fs.mkdir(OUT_DIR,{recursive:true});
 await fs.writeFile(`${OUT_DIR}/news.json`,JSON.stringify(output,null,2));
