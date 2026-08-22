@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-22T21:43:55.665Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "WGC: World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1787000236462,
+      "key": "research-1vteif3"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: Gold Spot price",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1787000236462,
+      "key": "research-1edzd3w"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: Low dollar hedge ratios: could lightning strike twice? FX 10 August Low dollar hedge ratios: could lightning strike twice?](https://think.ing.com/articles/low-hedge-ratios-lightning-strikes-twice/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787000236462,
+      "key": "research-15zl943"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: G10 FX Talking: The narrow path to a weaker dollar FX 6 August G10 FX Talking: The narrow path to a weaker dollar](https://think.ing.com/articles/g10-fx-talking-august-2026/)",
+      "detail": "słabszy USD",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787000236462,
+      "key": "research-evjd91"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Low dollar hedge ratios: could lightning strike twice? FX 10 August Low dollar hedge ratios: could lightning strike twice?](https://think.ing.com/articles/low-hedge-ratios-lightning-strikes-twice/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787046889178,
+      "key": "research-7k8elu"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: G10 FX Talking: The narrow path to a weaker dollar FX 6 August G10 FX Talking: The narrow path to a weaker dollar](https://think.ing.com/articles/g10-fx-talking-august-2026/)",
+      "detail": "słabszy USD",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787046889178,
+      "key": "research-1ii8lkq"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: Gold’s correction prompts a forecast reset Commodities, Food & Agri 24 June Gold’s correction prompts a forecast reset](https://think.ing.com/articles/golds-correction-prompts-a-forecast-reset/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1787126682646,
+      "key": "research-1tha7hq"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar bears chase totality FX 12 August FX Daily: Dollar bears chase totality](https://think.ing.com/articles/fx-daily-dollar-bears-chase-totality/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787126682646,
+      "key": "research-124typ7"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: Low dollar hedge ratios: could lightning strike twice? FX 10 August Low dollar hedge ratios: could lightning strike twice?](https://think.ing.com/articles/low-hedge-ratios-lightning-strikes-twice/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787126682646,
+      "key": "research-xb23e9"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 16: Gold’s correction prompts a forecast reset Commodities, Food & Agri 24 June Gold’s correction prompts a forecast reset](https://think.ing.com/articles/golds-correction-prompts-a-forecast-reset/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1787213338281,
+      "key": "research-yyyur3"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar bears chase totality FX 12 August FX Daily: Dollar bears chase totality](https://think.ing.com/articles/fx-daily-dollar-bears-chase-totality/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787219960424,
+      "key": "research-1tq4mle"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: Low dollar hedge ratios: could lightning strike twice? FX 10 August Low dollar hedge ratios: could lightning strike twice?](https://think.ing.com/articles/low-hedge-ratios-lightning-strikes-twice/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787219960424,
+      "key": "research-1cibu5c"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: EUR/USD starting to look cheap FX 14 August FX Daily: EUR/USD starting to look cheap](https://think.ing.com/articles/fx-daily-eur-usd-starting-to-look-cheap/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787306178390,
+      "key": "research-1tbxaj3"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar bears chase totality FX 12 August FX Daily: Dollar bears chase totality](https://think.ing.com/articles/fx-daily-dollar-bears-chase-totality/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1787306178390,
+      "key": "research-1yxg1op"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 18: Gold’s correction prompts a forecast reset Commodities, Food & Agri 24 June Gold’s correction prompts a forecast reset](https://think.ing.com/articles/golds-correction-prompts-a-forecast-reset/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1787332555718,
+      "key": "research-1s08v25"
+    }
+  ]
+}
