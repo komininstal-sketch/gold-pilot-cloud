@@ -1,0 +1,308 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-07T03:50:46.991Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "WGC: World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1788144221161,
+      "key": "research-1vteif3"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: Gold Spot price",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1788144221161,
+      "key": "research-1edzd3w"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: Is gold back? Commodities, Food & Agri 21 August Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788147546573,
+      "key": "research-1y0rb07"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 20: Gold’s correction prompts a forecast reset Commodities, Food & Agri 24 June Gold’s correction prompts a forecast reset](https://think.ing.com/articles/golds-correction-prompts-a-forecast-reset/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788147546573,
+      "key": "research-7eiw6y"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1788196640533,
+      "key": "research-qe41y1"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: *   Asian Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1788196640533,
+      "key": "research-97dxq4"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 33/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1788207863553,
+      "key": "dar7v1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 33 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1788211180581,
+      "key": "1m3qm0v"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788249236502,
+      "key": "research-eezb6a"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar soft, US policy in spotlight FX 24 August FX Daily: Dollar soft, US policy in spotlight](https://think.ing.com/articles/fx-daily-dollar-soft-us-policy-in-spotlight/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788249236502,
+      "key": "research-185yi0r"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: Is gold back? Commodities, Food & Agri 21 August Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788320635819,
+      "key": "research-1h1uube"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 21: Gold’s correction prompts a forecast reset Commodities, Food & Agri 24 June Gold’s correction prompts a forecast reset](https://think.ing.com/articles/golds-correction-prompts-a-forecast-reset/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788320635819,
+      "key": "research-a4el8t"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ / OBSERWUJ → CZEKAJ DO PUBLIKACJI",
+      "detail": "Bardzo ważne wydarzenie jest blisko.",
+      "importance": 3,
+      "ts": 1788334387149,
+      "key": "rwrhd5"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 58 → 53/100",
+      "detail": "premia 3.51% • spread 2.52%",
+      "importance": 2,
+      "ts": 1788334387149,
+      "key": "77lf0n"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788337042244,
+      "key": "research-1xlbx1z"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar soft, US policy in spotlight FX 24 August FX Daily: Dollar soft, US policy in spotlight](https://think.ing.com/articles/fx-daily-dollar-soft-us-policy-in-spotlight/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788337042244,
+      "key": "research-v5cgjm"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ DO PUBLIKACJI → CZEKAJ / OBSERWUJ",
+      "detail": "perspektywa 51/100 • wejście 66/100",
+      "importance": 3,
+      "ts": 1788349536292,
+      "key": "s3napp"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 53 → 66/100",
+      "detail": "premia 3.43% • spread 2.51%",
+      "importance": 2,
+      "ts": 1788349536292,
+      "key": "15cmrgi"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 44/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1788380554637,
+      "key": "abmnc7"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 44 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1788383955604,
+      "key": "1hkfrb5"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788424590780,
+      "key": "research-1dg1oss"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Dollar soft, US policy in spotlight FX 24 August FX Daily: Dollar soft, US policy in spotlight](https://think.ing.com/articles/fx-daily-dollar-soft-us-policy-in-spotlight/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788424590780,
+      "key": "research-d82mkd"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 4: Is gold back? Commodities, Food & Agri 21 August ### Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788435948582,
+      "key": "research-es7elw"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: September Fed conundrum remains FX 27 August FX Daily: September Fed conundrum remains](https://think.ing.com/articles/fx-daily-september-fed-conundrum-remains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788435948582,
+      "key": "research-1qiovli"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788435948582,
+      "key": "research-vfh9d"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 5: Is gold back? Commodities, Food & Agri 21 August ### Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788496767333,
+      "key": "research-xl3yxd"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: September Fed conundrum remains FX 27 August FX Daily: September Fed conundrum remains](https://think.ing.com/articles/fx-daily-september-fed-conundrum-remains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788508597323,
+      "key": "research-1gmsrbj"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788508597323,
+      "key": "research-hor4j7"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788521543903,
+      "key": "research-1x0altf"
+    },
+    {
+      "kind": "integrity",
+      "title": "Spójność cen: OK → WATCH",
+      "detail": "kontrola Gold API ↔ COMEX",
+      "importance": 2,
+      "ts": 1788525525443,
+      "key": "g4v43o"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 55 → 48/100",
+      "detail": "premia 5.26% • spread 2.60%",
+      "importance": 2,
+      "ts": 1788525525443,
+      "key": "71u2t0"
+    },
+    {
+      "kind": "integrity",
+      "title": "Spójność cen: WATCH → OK",
+      "detail": "kontrola Gold API ↔ COMEX",
+      "importance": 2,
+      "ts": 1788526486654,
+      "key": "1lm1q5y"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 55 → 67/100",
+      "detail": "premia 3.38% • spread 2.62%",
+      "importance": 2,
+      "ts": 1788531242571,
+      "key": "ye6v1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1788557976571,
+      "key": "1rtbb6q"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788753046991,
+      "key": "research-mujv1a"
+    }
+  ]
+}
