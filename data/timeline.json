@@ -1,0 +1,322 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-13T08:31:45.487Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788753046991,
+      "key": "research-mujv1a"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: September Fed conundrum remains FX 27 August FX Daily: September Fed conundrum remains](https://think.ing.com/articles/fx-daily-september-fed-conundrum-remains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788768038570,
+      "key": "research-13eb45c"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: Dollar caught between many fronts FX 25 August FX Daily: Dollar caught between many fronts](https://think.ing.com/articles/fx-daily-dollar-caught-between-many-fronts/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788768038570,
+      "key": "research-1b1slmm"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: 50/50 Fed call keeps risk assets in demand FX 4 September FX Daily: 50/50 Fed call keeps risk assets in demand](https://think.ing.com/articles/fx-daily-5050-fed-call-keeps-risk-assets-in-demand/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788776413431,
+      "key": "research-fnxhq0"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Yield curve dynamics drive the dollar FX 3 September Yield curve dynamics drive the dollar](https://think.ing.com/articles/fx-monthly-yield-curve-dynamics-drive-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788776413431,
+      "key": "research-13th3b6"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: 50/50 Fed call keeps risk assets in demand FX 4 September FX Daily: 50/50 Fed call keeps risk assets in demand](https://think.ing.com/articles/fx-daily-5050-fed-call-keeps-risk-assets-in-demand/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788853854314,
+      "key": "research-1apwg3p"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: Yield curve dynamics drive the dollar FX 3 September Yield curve dynamics drive the dollar](https://think.ing.com/articles/fx-monthly-yield-curve-dynamics-drive-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788853854314,
+      "key": "research-w8pa4d"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: 50/50 Fed call keeps risk assets in demand FX 4 September FX Daily: 50/50 Fed call keeps risk assets in demand](https://think.ing.com/articles/fx-daily-5050-fed-call-keeps-risk-assets-in-demand/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788873984000,
+      "key": "research-dqr5p2"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: Yield curve dynamics drive the dollar FX 3 September Yield curve dynamics drive the dollar](https://think.ing.com/articles/fx-monthly-yield-curve-dynamics-drive-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788873984000,
+      "key": "research-10ykwto"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1788880237719,
+      "key": "research-1vteif3"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: Gold Spot price",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1788880237719,
+      "key": "research-1edzd3w"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Earn interest on your account With no lock-in, tracking the market rate",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1788887198469,
+      "key": "research-18fg7ns"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Connectivity & APIs Explore ways to connect to our capital market infrastructure",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1788887198469,
+      "key": "research-1povyoh"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1788917622423,
+      "key": "research-qe41y1"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: *   Asian Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1788917622423,
+      "key": "research-97dxq4"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1788919209269,
+      "key": "research-1w9dm0p"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: 50/50 Fed call keeps risk assets in demand FX 4 September FX Daily: 50/50 Fed call keeps risk assets in demand](https://think.ing.com/articles/fx-daily-5050-fed-call-keeps-risk-assets-in-demand/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788938650246,
+      "key": "research-z9ytfv"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: Yield curve dynamics drive the dollar FX 3 September Yield curve dynamics drive the dollar](https://think.ing.com/articles/fx-monthly-yield-curve-dynamics-drive-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1788938650246,
+      "key": "research-mw82ty"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1789014591883,
+      "key": "research-1tnrxt8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: Meet the team Forecasts Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789026666720,
+      "key": "research-10gvkrx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/fx/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789026666720,
+      "key": "research-sbevj0"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1789064261337,
+      "key": "research-vyx0yi"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 45/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789071749687,
+      "key": "1u1cqja"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 45 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789075854332,
+      "key": "1vkijzm"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: G10 FX Talking: Dollar downtrend delayed FX 7 September G10 FX Talking: Dollar downtrend delayed](https://think.ing.com/articles/g10-fx-talking-september-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789112067386,
+      "key": "research-1ycnahn"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: EMEA FX Talking: High yield and CEE remain in demand FX 7 September EMEA FX Talking: High yield and CEE remain in demand](https://think.ing.com/articles/emea-fx-talking-september-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789112067386,
+      "key": "research-6rdcwa"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Talking: Don't call it a dollar comeback Report FX 7 September FX Talking: Don't call it a dollar comeback](https://think.ing.com/reports/fx-talking-dont-call-it-a-dollar-comeback-report/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789123372487,
+      "key": "research-1vgg1ti"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: G10 FX Talking: Dollar downtrend delayed FX 7 September G10 FX Talking: Dollar downtrend delayed](https://think.ing.com/articles/g10-fx-talking-september-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789123372487,
+      "key": "research-1bqshco"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ / OBSERWUJ → CZEKAJ DO PUBLIKACJI",
+      "detail": "Bardzo ważne wydarzenie jest blisko.",
+      "importance": 3,
+      "ts": 1789126974707,
+      "key": "rwrhd5"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 57 → 51/100",
+      "detail": "premia 3.95% • spread 2.81%",
+      "importance": 2,
+      "ts": 1789126974707,
+      "key": "6hy2uc"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ DO PUBLIKACJI → CZEKAJ / OBSERWUJ",
+      "detail": "perspektywa 51/100 • wejście 65/100",
+      "importance": 3,
+      "ts": 1789141633646,
+      "key": "s3napp"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 52 → 65/100",
+      "detail": "premia 3.93% • spread 2.81%",
+      "importance": 2,
+      "ts": 1789141633646,
+      "key": "sxrlxe"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Talking: Don't call it a dollar comeback Report FX 7 September FX Talking: Don't call it a dollar comeback](https://think.ing.com/reports/fx-talking-dont-call-it-a-dollar-comeback-report/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789145941498,
+      "key": "research-1p91g8z"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: G10 FX Talking: Dollar downtrend delayed FX 7 September G10 FX Talking: Dollar downtrend delayed](https://think.ing.com/articles/g10-fx-talking-september-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789145941498,
+      "key": "research-4vv4nd"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 34/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789161850852,
+      "key": "nj4yn2"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 34 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789165887946,
+      "key": "13d90vy"
+    }
+  ]
+}
