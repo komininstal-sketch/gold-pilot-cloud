@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-19T18:13:41.485Z",
+  "ok": false,
+  "errorCount": 1,
+  "errors": [
+    "XAU/USD: fetch failed"
+  ],
+  "points": 476,
+  "oldest": "2026-09-11T18:32:45.311Z",
+  "newest": "2026-09-19T18:13:41.485Z"
+}

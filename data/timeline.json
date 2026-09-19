@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-19T18:15:07.173Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 34/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789161850852,
+      "key": "nj4yn2"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 34 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789165887946,
+      "key": "13d90vy"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1789360057681,
+      "key": "research-1uf0y8v"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: September ECB Cheat Sheet: Pick your poison FX Rates 8 September September ECB Cheat Sheet: Pick your poison](https://think.ing.com/articles/september-ecb-cheat-sheet-pick-your-poison/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789371526066,
+      "key": "research-wl3d47"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Talking: Don't call it a dollar comeback Report FX 7 September FX Talking: Don't call it a dollar comeback](https://think.ing.com/reports/fx-talking-dont-call-it-a-dollar-comeback-report/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789371526066,
+      "key": "research-fdpfjs"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 42/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789418893239,
+      "key": "1p4eoo5"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 42 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789422490102,
+      "key": "1ll9017"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 12: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1789437893602,
+      "key": "research-1i30d38"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar price action quite poor FX 9 September FX Daily: Dollar price action quite poor](https://think.ing.com/articles/fx-daily-dollar-price-action-quite-poor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789458101431,
+      "key": "research-q4k18m"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: September ECB Cheat Sheet: Pick your poison FX Rates 8 September September ECB Cheat Sheet: Pick your poison](https://think.ing.com/articles/september-ecb-cheat-sheet-pick-your-poison/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789458101431,
+      "key": "research-iqmx1e"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar price action quite poor FX 9 September FX Daily: Dollar price action quite poor](https://think.ing.com/articles/fx-daily-dollar-price-action-quite-poor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789545103333,
+      "key": "research-95ytgx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: September ECB Cheat Sheet: Pick your poison FX Rates 8 September September ECB Cheat Sheet: Pick your poison](https://think.ing.com/articles/september-ecb-cheat-sheet-pick-your-poison/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789545103333,
+      "key": "research-11r8brx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: CPI can seal the deal on a Fed hike FX 11 September FX Daily: CPI can seal the deal on a Fed hike](https://think.ing.com/articles/fx-daily-cpi-can-seal-the-deal-on-a-fed-hike/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789588016251,
+      "key": "research-1cjm0gi"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar price action quite poor FX 9 September FX Daily: Dollar price action quite poor](https://think.ing.com/articles/fx-daily-dollar-price-action-quite-poor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789588016251,
+      "key": "research-1rzmdio"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 55 → 66/100",
+      "detail": "premia 3.70% • spread 2.39%",
+      "importance": 2,
+      "ts": 1789591713399,
+      "key": "jla76c"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: CPI can seal the deal on a Fed hike FX 11 September FX Daily: CPI can seal the deal on a Fed hike](https://think.ing.com/articles/fx-daily-cpi-can-seal-the-deal-on-a-fed-hike/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789640995287,
+      "key": "research-c9y4e9"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Dollar price action quite poor FX 9 September FX Daily: Dollar price action quite poor](https://think.ing.com/articles/fx-daily-dollar-price-action-quite-poor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789640995287,
+      "key": "research-1ris4kr"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX Daily: As hawkish as it gets FX Yesterday, 07:55 FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789723172053,
+      "key": "research-1yqfaq7"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: CPI can seal the deal on a Fed hike FX 11 September FX Daily: CPI can seal the deal on a Fed hike](https://think.ing.com/articles/fx-daily-cpi-can-seal-the-deal-on-a-fed-hike/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789723172053,
+      "key": "research-15k33xg"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: As hawkish as it gets FX Yesterday, 07:55 FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789738919946,
+      "key": "research-yqgvx0"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar’s turn to get a monetary policy lift FX 14 September FX Daily: Dollar’s turn to get a monetary policy lift](https://think.ing.com/articles/fx-daily-dollars-turn-to-get-a-monetary-policy-lift/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789738919946,
+      "key": "research-bw0djo"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: As hawkish as it gets FX Yesterday, 06:55 FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789751699255,
+      "key": "research-xdx55d"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 58/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789768475213,
+      "key": "hjz9ys"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 58 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789775523749,
+      "key": "e2l4z8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: As hawkish as it gets FX 17 September FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789783937421,
+      "key": "research-p1g2ms"
+    }
+  ]
+}

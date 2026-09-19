@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-19T18:13:41.485Z",
+  "point": {
+    "ts": 1789841629233,
+    "iso": "2026-09-19T18:13:41.485Z",
+    "warsaw": "19.09.2026, 20:13:41",
+    "market": {
+      "xauUsd": null,
+      "usdPln": 3.7963,
+      "plnG": null,
+      "comexGcUsdOz": 4424.9,
+      "eurPln": 4.3691,
+      "chfPln": 4.6117,
+      "nbpGoldPlnG": 527.13
+    },
+    "dealers": {
+      "tavex": {
+        "name": "Tavex Polska",
+        "currency": "PLN",
+        "nativeSale": 5552,
+        "nativeBuyback": 5399,
+        "salePln": 5552,
+        "buybackPln": 5399,
+        "url": "https://tavex.pl/zloto/zlota-sztabka-argor-heraeus-10-g/"
+      },
+      "stonex": {
+        "name": "StoneX Bullion",
+        "currency": "EUR",
+        "nativeSale": 1271.6,
+        "nativeBuyback": 1164.11,
+        "salePln": 5555.74756,
+        "buybackPln": 5086.113001,
+        "url": "https://stonexbullion.com/en/gold-bars/10g/10g-gold-bar-argor-heraeus/"
+      },
+      "degussa": {
+        "name": "Degussa Switzerland",
+        "currency": "CHF",
+        "nativeSale": 1206.5,
+        "nativeBuyback": 1115.5,
+        "salePln": 5564.01605,
+        "buybackPln": 5144.35135,
+        "url": "https://degussa.com/ch-en/header_navigation/prices/price-list/"
+      },
+      "philoro": {
+        "name": "philoro Switzerland",
+        "currency": "CHF",
+        "nativeSale": 1198.88,
+        "nativeBuyback": 1142.29,
+        "salePln": 5528.874896,
+        "buybackPln": 5267.898792999999,
+        "url": "https://philoro.ch/shop/goldbarren"
+      }
+    },
+    "sourceOk": {
+      "gold": false,
+      "usdPln": true,
+      "comex": true,
+      "eurPln": true,
+      "chfPln": true,
+      "nbpGold": true,
+      "tavex": true,
+      "stonex": true,
+      "degussa": true,
+      "philoro": true
+    }
+  },
+  "errors": [
+    "XAU/USD: fetch failed"
+  ]
+}
