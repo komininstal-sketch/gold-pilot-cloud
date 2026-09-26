@@ -1,0 +1,241 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-09-26T18:28:08.207Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 58/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789768475213,
+      "key": "hjz9ys"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 58 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1789775523749,
+      "key": "e2l4z8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: As hawkish as it gets FX 17 September FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789783937421,
+      "key": "research-p1g2ms"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 13: Is gold back? Commodities, Food & Agri 21 August Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1789999858891,
+      "key": "research-1t0ihvp"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: FX Daily: As hawkish as it gets FX 17 September FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789999858891,
+      "key": "research-1tlc1y1"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar’s turn to get a monetary policy lift FX 14 September FX Daily: Dollar’s turn to get a monetary policy lift](https://think.ing.com/articles/fx-daily-dollars-turn-to-get-a-monetary-policy-lift/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1789999858891,
+      "key": "research-1y7myid"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 4: FX Daily: As hawkish as it gets FX 17 September ### FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790019003502,
+      "key": "research-1kbzy5l"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Consensus Fed hike can still lift USD FX 16 September FX Daily: Consensus Fed hike can still lift USD](https://think.ing.com/articles/fx-daily-consensus-fed-hike-can-still-offer-usd-support/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790019003502,
+      "key": "research-1qua2fa"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 39/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790030855539,
+      "key": "1jmqqjv"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 39 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790039823788,
+      "key": "1cgpw5l"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 5: FX Daily: As hawkish as it gets FX 17 September ### FX Daily: As hawkish as it gets The Fed is signalling another hike this year](https://think.ing.com/articles/fx-daily-as-hawkish-as-it-gets/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790078118011,
+      "key": "research-ea81ho"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Consensus Fed hike can still lift USD FX 16 September FX Daily: Consensus Fed hike can still lift USD](https://think.ing.com/articles/fx-daily-consensus-fed-hike-can-still-offer-usd-support/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790078118011,
+      "key": "research-1fgr3af"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: Exclusive news, data and analytics for financial market professionals Learn more about Refinitiv",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1790093857548,
+      "key": "research-qe41y1"
+    },
+    {
+      "kind": "research",
+      "title": "REUTERS: *   Asian Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.reuters.com/markets/gold/",
+      "ts": 1790093857548,
+      "key": "research-97dxq4"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Consensus Fed hike can still lift USD FX 16 September FX Daily: Consensus Fed hike can still lift USD](https://think.ing.com/articles/fx-daily-consensus-fed-hike-can-still-offer-usd-support/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790093857548,
+      "key": "research-n5airc"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Dollar price action quite poor FX 9 September FX Daily: Dollar price action quite poor](https://think.ing.com/articles/fx-daily-dollar-price-action-quite-poor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790093857548,
+      "key": "research-121exd2"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 14: Is gold back? Commodities, Food & Agri 21 August Is gold back? Fiscal risks and renewed investment demand give gold fresh momentum](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "popyt inwestycyjny",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1790158363918,
+      "key": "research-178q9dq"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Bank of Japan plays catch-up with the Fed FX 18 September FX Daily: Bank of Japan plays catch-up with the Fed](https://think.ing.com/articles/fx-daily-boj-plays-catch-up-with-fed/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790158363918,
+      "key": "research-33kyt1"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Consensus Fed hike can still lift USD FX 16 September FX Daily: Consensus Fed hike can still lift USD](https://think.ing.com/articles/fx-daily-consensus-fed-hike-can-still-offer-usd-support/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790158363918,
+      "key": "research-tm9fc1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 56/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790201664327,
+      "key": "1kjc7za"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790210003410,
+      "key": "1rtbb6q"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: Why we've changed our Fed and ECB calls FX Rates United States 18 September Why we've changed our Fed and ECB calls](https://think.ing.com/articles/we-changed-our-fed-and-ecb-call/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790244864807,
+      "key": "research-js8ei4"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Bank of Japan plays catch-up with the Fed FX 18 September FX Daily: Bank of Japan plays catch-up with the Fed](https://think.ing.com/articles/fx-daily-boj-plays-catch-up-with-fed/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790244864807,
+      "key": "research-wz563a"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 33/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790288872024,
+      "key": "dar7v1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 33 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790297019317,
+      "key": "1m3qm0v"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: Why we've changed our Fed and ECB calls FX Rates United States 18 September Why we've changed our Fed and ECB calls](https://think.ing.com/articles/we-changed-our-fed-and-ecb-call/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790332112241,
+      "key": "research-k4jpdy"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Bank of Japan plays catch-up with the Fed FX 18 September FX Daily: Bank of Japan plays catch-up with the Fed](https://think.ing.com/articles/fx-daily-boj-plays-catch-up-with-fed/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790332112241,
+      "key": "research-dzfzs"
+    }
+  ]
+}
