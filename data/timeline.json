@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-03T19:16:43.347Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Hawkish Fedspeak breaks oil-USD link FX 22 September FX Daily: Hawkish Fedspeak breaks oil-USD link](https://think.ing.com/articles/fx-daily-hawkish-fedspeak-breaks-oil-usd-link/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790581640879,
+      "key": "research-1qbw2wr"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: Why we've changed our Fed and ECB calls FX Rates United States 18 September Why we've changed our Fed and ECB calls](https://think.ing.com/articles/we-changed-our-fed-and-ecb-call/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790581640879,
+      "key": "research-1d4ar5j"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 57/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790632619418,
+      "key": "1o8yu0n"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 57 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790645652939,
+      "key": "3e54kx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Hawkish Fedspeak breaks oil-USD link FX 22 September FX Daily: Hawkish Fedspeak breaks oil-USD link](https://think.ing.com/articles/fx-daily-hawkish-fedspeak-breaks-oil-usd-link/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790666987828,
+      "key": "research-yti3iq"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: Why we've changed our Fed and ECB calls FX Rates United States 18 September Why we've changed our Fed and ECB calls](https://think.ing.com/articles/we-changed-our-fed-and-ecb-call/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790666987828,
+      "key": "research-34trvd"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 37/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790723401126,
+      "key": "tlsxbd"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 37 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790734062533,
+      "key": "110uq97"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar resilience builds FX 23 September FX Daily: Dollar resilience builds](https://think.ing.com/articles/fx-daily-dollar-resilience-builds/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790757009055,
+      "key": "research-1eckl41"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Hawkish Fedspeak breaks oil-USD link FX 22 September FX Daily: Hawkish Fedspeak breaks oil-USD link](https://think.ing.com/articles/fx-daily-hawkish-fedspeak-breaks-oil-usd-link/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790757009055,
+      "key": "research-1xwio0p"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Earn interest on your account With no lock-in, tracking the market rate",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1790821820538,
+      "key": "research-18fg7ns"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Connectivity & APIs Explore ways to connect to our capital market infrastructure",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1790821820538,
+      "key": "research-1povyoh"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1790846615797,
+      "key": "research-mjyzv7"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX Daily: Dollar is on a roll FX Today, 06:40 FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790872598449,
+      "key": "research-pbg5kl"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Bond sell-off helps USD consolidate gains FX 25 September FX Daily: Bond sell-off helps USD consolidate gains](https://think.ing.com/articles/fx-daily-bond-selloff-helps-usd-consolidate-gains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790872598449,
+      "key": "research-1wq6npb"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX Daily: Dollar is on a roll FX Today, 07:40 FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790889624809,
+      "key": "research-1ca25ua"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX Daily: Dollar is on a roll FX Yesterday, 06:40 FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790902642364,
+      "key": "research-1654rdc"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: Dollar is on a roll FX Yesterday, 06:40 FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790923789290,
+      "key": "research-e9zf2h"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Bond sell-off helps USD consolidate gains FX 25 September FX Daily: Bond sell-off helps USD consolidate gains](https://think.ing.com/articles/fx-daily-bond-selloff-helps-usd-consolidate-gains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790923789290,
+      "key": "research-1crh9xe"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: Dollar is on a roll FX Yesterday, 07:40 FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790947013501,
+      "key": "research-atyxli"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 58 → 66/100",
+      "detail": "premia 4.45% • spread 2.52%",
+      "importance": 2,
+      "ts": 1790947013501,
+      "key": "5043nn"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 62/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790980322432,
+      "key": "1xavb03"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: Dollar is on a roll FX 1 October FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790990654520,
+      "key": "research-1xxz76g"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 62 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790990654520,
+      "key": "w3spk1"
+    }
+  ]
+}
