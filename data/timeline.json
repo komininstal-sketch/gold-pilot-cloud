@@ -1,0 +1,161 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-10T21:38:46.373Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 62/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790980322432,
+      "key": "1xavb03"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX Daily: Dollar is on a roll FX 1 October FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1790990654520,
+      "key": "research-1xxz76g"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 62 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1790990654520,
+      "key": "w3spk1"
+    },
+    {
+      "kind": "research",
+      "title": "ING: Meet the team Forecasts Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1791189279652,
+      "key": "research-10gvkrx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/commodities/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1791189279652,
+      "key": "research-1iclt7b"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: FX Daily: Dollar is on a roll FX 1 October FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791189279652,
+      "key": "research-1b6pz4h"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Bond sell-off helps USD consolidate gains FX 25 September FX Daily: Bond sell-off helps USD consolidate gains](https://think.ing.com/articles/fx-daily-bond-selloff-helps-usd-consolidate-gains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791189279652,
+      "key": "research-byqa4d"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 19: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1791221056107,
+      "key": "research-1pyocx3"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 44/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1791242197094,
+      "key": "abmnc7"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 44 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1791256051989,
+      "key": "1hkfrb5"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 20: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1791281569266,
+      "key": "research-7r5iv"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 4: FX Daily: Dollar is on a roll FX 1 October ### FX Daily: Dollar is on a roll The dollar is testing the highs of the year and could go higher](https://think.ing.com/articles/fx-daily-dollar-is-on-a-roll/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791281569266,
+      "key": "research-6gl9vz"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Bond sell-off helps USD consolidate gains FX 25 September FX Daily: Bond sell-off helps USD consolidate gains](https://think.ing.com/articles/fx-daily-bond-selloff-helps-usd-consolidate-gains/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791281569266,
+      "key": "research-1qi4isw"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 21: Is gold back? Commodities, Food & Agri 21 August Is gold back?](https://think.ing.com/articles/is-gold-back/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1791355197680,
+      "key": "research-1usyi7m"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/fx/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791381473399,
+      "key": "research-sbevj0"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 55 → 67/100",
+      "detail": "premia 3.94% • spread 2.50%",
+      "importance": 2,
+      "ts": 1791381473399,
+      "key": "ye6v1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 56/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1791417284336,
+      "key": "1kjc7za"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1791433054356,
+      "key": "1rtbb6q"
+    }
+  ]
+}

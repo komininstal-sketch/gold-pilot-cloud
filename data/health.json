@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-10T21:37:47.959Z",
+  "ok": false,
+  "errorCount": 1,
+  "errors": [
+    "Degussa: Parser Degussa: brak/nieprawidłowa cena 10 g"
+  ],
+  "points": 39,
+  "oldest": "2026-10-02T22:30:32.030Z",
+  "newest": "2026-10-10T21:37:47.959Z"
+}
