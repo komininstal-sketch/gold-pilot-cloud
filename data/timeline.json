@@ -1,0 +1,243 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-17T20:30:07.684Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "SAXO: *   Earn interest on your account With no lock-in, tracking the market rate",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1791766355599,
+      "key": "research-18fg7ns"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Connectivity & APIs Explore ways to connect to our capital market infrastructure",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1791766355599,
+      "key": "research-1povyoh"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar holds gains as geopolitics heats up FX Today, 07:45 FX Daily: Dollar holds gains as geopolitics heats up](https://think.ing.com/articles/fx-daily-dollar-holds-gains-as-geopolitics-heats-up/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791821536657,
+      "key": "research-1nondh1"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: High bar for a dollar correction FX 9 October FX Daily: High bar for a dollar correction](https://think.ing.com/articles/fx-daily-high-bar-for-a-dollar-correction/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791821536657,
+      "key": "research-16za2zq"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar holds gains as geopolitics heats up FX Today, 06:45 FX Daily: Dollar holds gains as geopolitics heats up](https://think.ing.com/articles/fx-daily-dollar-holds-gains-as-geopolitics-heats-up/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791846110914,
+      "key": "research-dckrte"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Hawkish Fed minutes keep dollar supported FX 8 October FX Daily: Hawkish Fed minutes keep dollar supported](https://think.ing.com/articles/fx-daily-hawkish-fed-minutes-keep-dollar-supported/)",
+      "detail": "wyższe stopy",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791862273482,
+      "key": "research-851q2j"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking Yesterday, 11:43 Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791889270491,
+      "key": "research-15xnv14"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX Daily: High bar for a dollar correction FX 9 October FX Daily: High bar for a dollar correction](https://think.ing.com/articles/fx-daily-high-bar-for-a-dollar-correction/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791889270491,
+      "key": "research-iql16f"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking Yesterday, 10:43 Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791914948441,
+      "key": "research-1fz6nt5"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking 12 October Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791941184421,
+      "key": "research-1s8ydre"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Dollar holds gains as geopolitics heats up FX 12 October FX Daily: Dollar holds gains as geopolitics heats up](https://think.ing.com/articles/fx-daily-dollar-holds-gains-as-geopolitics-heats-up/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791941184421,
+      "key": "research-gj0ctd"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking 12 October Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791980378305,
+      "key": "research-ydv5st"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX Daily: Dollar holds gains as geopolitics heats up FX 12 October FX Daily: Dollar holds gains as geopolitics heats up](https://think.ing.com/articles/fx-daily-dollar-holds-gains-as-geopolitics-heats-up/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1791980378305,
+      "key": "research-1ul2vej"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ / OBSERWUJ → CZEKAJ DO PUBLIKACJI",
+      "detail": "Bardzo ważne wydarzenie jest blisko.",
+      "importance": 3,
+      "ts": 1791980378305,
+      "key": "rwrhd5"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 59 → 54/100",
+      "detail": "premia 3.69% • spread 2.32%",
+      "importance": 2,
+      "ts": 1791980378305,
+      "key": "1to0pjf"
+    },
+    {
+      "kind": "decision",
+      "title": "Silnik Decyzyjny: CZEKAJ DO PUBLIKACJI → CZEKAJ / OBSERWUJ",
+      "detail": "perspektywa 49/100 • wejście 68/100",
+      "importance": 3,
+      "ts": 1791998602472,
+      "key": "s3napp"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 54 → 68/100",
+      "detail": "premia 3.78% • spread 2.32%",
+      "importance": 2,
+      "ts": 1791998602472,
+      "key": "wqtl05"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking 12 October Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792065792215,
+      "key": "research-rras1a"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 12: FX Daily: Dollar holds gains as geopolitics heats up FX 12 October FX Daily: Dollar holds gains as geopolitics heats up](https://think.ing.com/articles/fx-daily-dollar-holds-gains-as-geopolitics-heats-up/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792065792215,
+      "key": "research-r1bj0p"
+    },
+    {
+      "kind": "research",
+      "title": "ING: Meet the team Forecasts Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1792130229227,
+      "key": "research-10gvkrx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/commodities/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1792130229227,
+      "key": "research-1iclt7b"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX: The dollar story improves FX Yesterday, 08:46 FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792148291055,
+      "key": "research-1oo40cn"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: Asia FX Talking: More two-way risk emerging in USD/CNY  FX Talking 12 October Asia FX Talking: More two-way risk emerging in USD/CNY](https://think.ing.com/articles/asia-fx-talking-october-2026/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792148291055,
+      "key": "research-1a4gogr"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX: The dollar story improves FX Yesterday, 09:46 FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792164015052,
+      "key": "research-dje9so"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 56/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792187486445,
+      "key": "1kjc7za"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX: The dollar story improves FX 15 October FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792195326147,
+      "key": "research-jxzdv5"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792195326147,
+      "key": "1rtbb6q"
+    }
+  ]
+}
