@@ -1,0 +1,56 @@
+{
+  "schema": 2,
+  "generatedAt": "2026-10-24T21:42:47.662Z",
+  "fetchedAt": "2026-10-24T21:42:47.662Z",
+  "categories": [
+    {
+      "id": "gold",
+      "label": "Złoto i metale",
+      "count": 0
+    },
+    {
+      "id": "fx",
+      "label": "Waluty",
+      "count": 0
+    },
+    {
+      "id": "rates",
+      "label": "Fed, stopy i obligacje",
+      "count": 0
+    },
+    {
+      "id": "stocks",
+      "label": "Giełdy i akcje",
+      "count": 0
+    },
+    {
+      "id": "economy",
+      "label": "Gospodarka",
+      "count": 0
+    },
+    {
+      "id": "poland",
+      "label": "Polska",
+      "count": 0
+    },
+    {
+      "id": "geo",
+      "label": "Geopolityka",
+      "count": 0
+    }
+  ],
+  "items": [],
+  "summary": {
+    "total": 0,
+    "highImportance": 0,
+    "counts": {
+      "gold": 0,
+      "fx": 0,
+      "rates": 0,
+      "stocks": 0,
+      "economy": 0,
+      "poland": 0,
+      "geo": 0
+    }
+  }
+}

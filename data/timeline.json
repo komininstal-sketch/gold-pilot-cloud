@@ -1,0 +1,207 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-24T21:42:01.725Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 56/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792187486445,
+      "key": "1kjc7za"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 1: FX: The dollar story improves FX 15 October FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792195326147,
+      "key": "research-jxzdv5"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792195326147,
+      "key": "1rtbb6q"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 2: FX: The dollar story improves FX 15 October FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792418569227,
+      "key": "research-1hrxgqc"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: No trigger in sight for a dollar reversal FX 13 October FX Daily: No trigger in sight for a dollar reversal](https://think.ing.com/articles/fx-daily-no-trigger-in-sight-for-a-dollar-reversal/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792418569227,
+      "key": "research-1mkf6jj"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: FX: The dollar story improves FX 15 October FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792498798886,
+      "key": "research-lst16n"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: No trigger in sight for a dollar reversal FX 13 October FX Daily: No trigger in sight for a dollar reversal](https://think.ing.com/articles/fx-daily-no-trigger-in-sight-for-a-dollar-reversal/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792498798886,
+      "key": "research-1c6angk"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 4: FX: The dollar story improves FX 15 October ### FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792605565122,
+      "key": "research-1pgl04b"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Hot inflation to strengthen dollar floor FX 14 October FX Daily: Hot inflation to strengthen dollar floor](https://think.ing.com/articles/fx-daily-hot-inflation-to-strengthen-dollar-floor/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792605565122,
+      "key": "research-1lkofe7"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 20/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792605565122,
+      "key": "k8fd5t"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 20 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792618440171,
+      "key": "1mknqgr"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 5: FX: The dollar story improves FX 15 October ### FX: The dollar story improves EUR/USD looks set to stay pressured on wide rate differentials](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792662129179,
+      "key": "research-1mqp1qg"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Markets preview the AI correction FX 15 October FX Daily: Markets preview the AI correction](https://think.ing.com/articles/fx-daily-markets-preview-the-ai-correction/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792662129179,
+      "key": "research-cokabf"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1792706475432,
+      "key": "research-1vteif3"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: Gold Spot price",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1792706475432,
+      "key": "research-1edzd3w"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX: The dollar story improves FX 15 October FX: The dollar story improves](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792706475432,
+      "key": "research-1xecxf8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Markets preview the AI correction FX 15 October FX Daily: Markets preview the AI correction](https://think.ing.com/articles/fx-daily-markets-preview-the-ai-correction/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792706475432,
+      "key": "research-11rrxc8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Inflation vs. AI overbuild story dominates FX 16 October FX Daily: Inflation vs. AI overbuild story dominates](https://think.ing.com/articles/fx-daily-inflation-versus-ai-overbuild-story-dominates/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792750530010,
+      "key": "research-1efnsyy"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX: The dollar story improves FX 15 October FX: The dollar story improves](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792750530010,
+      "key": "research-12vktbl"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Inflation vs. AI overbuild story dominates FX 16 October FX Daily: Inflation vs. AI overbuild story dominates](https://think.ing.com/articles/fx-daily-inflation-versus-ai-overbuild-story-dominates/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792768315197,
+      "key": "research-zczxhx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX: The dollar story improves FX 15 October FX: The dollar story improves](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792768315197,
+      "key": "research-1vsiar6"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 69/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792794007360,
+      "key": "1879bto"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 69 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792803053932,
+      "key": "epoigo"
+    }
+  ]
+}
