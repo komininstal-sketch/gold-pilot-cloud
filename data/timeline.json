@@ -1,0 +1,215 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-10-31T17:16:09.880Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 69/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792794007360,
+      "key": "1879bto"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 69 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1792803053932,
+      "key": "epoigo"
+    },
+    {
+      "kind": "research",
+      "title": "ING: Meet the team Forecasts Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1792931434544,
+      "key": "research-10gvkrx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/commodities/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1792931434544,
+      "key": "research-1iclt7b"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/fx/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1792931434544,
+      "key": "research-sbevj0"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 45/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793046580401,
+      "key": "1u1cqja"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 45 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793059421228,
+      "key": "1vkijzm"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Earn interest on your account With no lock-in, tracking the market rate",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1793076881640,
+      "key": "research-18fg7ns"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Connectivity & APIs Explore ways to connect to our capital market infrastructure",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1793076881640,
+      "key": "research-1povyoh"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Inflation vs. AI overbuild story dominates FX 16 October FX Daily: Inflation vs. AI overbuild story dominates](https://think.ing.com/articles/fx-daily-inflation-versus-ai-overbuild-story-dominates/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793095942337,
+      "key": "research-1ahil00"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX: The dollar story improves FX 15 October FX: The dollar story improves](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793095942337,
+      "key": "research-1yl6szr"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Inflation vs. AI overbuild story dominates FX 16 October FX Daily: Inflation vs. AI overbuild story dominates](https://think.ing.com/articles/fx-daily-inflation-versus-ai-overbuild-story-dominates/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793183500692,
+      "key": "research-7b7eff"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX: The dollar story improves FX 15 October FX: The dollar story improves](https://think.ing.com/articles/the-dollar-story-improves/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793183500692,
+      "key": "research-iacx2d"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: RBNZ to hike next week as inflation risks mount FX New Zealand 22 October RBNZ to hike next week as inflation risks mount](https://think.ing.com/articles/rbnz-to-hike-next-week-as-inflation-risks-mount/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793206169874,
+      "key": "research-v12kjt"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: Inflation vs. AI overbuild story dominates FX 16 October FX Daily: Inflation vs. AI overbuild story dominates](https://think.ing.com/articles/fx-daily-inflation-versus-ai-overbuild-story-dominates/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793206169874,
+      "key": "research-3z5y0m"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 56 → 67/100",
+      "detail": "premia —% • spread 2.35%",
+      "importance": 2,
+      "ts": 1793222639915,
+      "key": "i3qsko"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar has lost its safe-haven crown  FX 23 October FX Daily: Dollar has lost its safe-haven crown](https://think.ing.com/articles/fx-daily-dollar-has-lost-its-safe-haven-crown/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793283020870,
+      "key": "research-kewz3"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: RBNZ to hike next week as inflation risks mount FX New Zealand 22 October RBNZ to hike next week as inflation risks mount](https://think.ing.com/articles/rbnz-to-hike-next-week-as-inflation-risks-mount/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793283020870,
+      "key": "research-wvxmmz"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793353380193,
+      "key": "research-qw2lzt"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793353380193,
+      "key": "research-14sfp9g"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793393674191,
+      "key": "research-1psl8ay"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793393674191,
+      "key": "research-gqyin1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 57/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793393674191,
+      "key": "1o8yu0n"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 57 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793406043972,
+      "key": "3e54kx"
+    }
+  ]
+}
