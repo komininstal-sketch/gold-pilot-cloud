@@ -1,0 +1,248 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-07T18:18:21.018Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793393674191,
+      "key": "research-1psl8ay"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793393674191,
+      "key": "research-gqyin1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 57/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793393674191,
+      "key": "1o8yu0n"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 57 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793406043972,
+      "key": "3e54kx"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   APIs Custom trading and market data access.",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1793478618650,
+      "key": "research-19zl0id"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Market insights",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1793478618650,
+      "key": "research-1vzyd7w"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1793565828952,
+      "key": "research-1vteif3"
+    },
+    {
+      "kind": "research",
+      "title": "WGC: Gold Spot price",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.gold.org/goldhub/research/library",
+      "ts": 1793565828952,
+      "key": "research-1edzd3w"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793624280838,
+      "key": "research-v8zhdw"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793624280838,
+      "key": "research-dj98aw"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 56/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793657771368,
+      "key": "1kjc7za"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 56 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1793676650468,
+      "key": "1rtbb6q"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793704639131,
+      "key": "research-opvcqu"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793704639131,
+      "key": "research-uo8xz3"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 65 → 60/100",
+      "detail": "premia 4.07% • spread 2.13%",
+      "importance": 2,
+      "ts": 1793704639131,
+      "key": "rl27jt"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793790496781,
+      "key": "research-1l9puxx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 12: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793790496781,
+      "key": "research-14rlg52"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 57 → 63/100",
+      "detail": "premia 4.54% • spread 2.43%",
+      "importance": 2,
+      "ts": 1793790496781,
+      "key": "1g3mmzf"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 12: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793885342101,
+      "key": "research-tslhi4"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Dollar has lost its safe-haven crown  FX 23 October FX Daily: Dollar has lost its safe-haven crown](https://think.ing.com/articles/fx-daily-dollar-has-lost-its-safe-haven-crown/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793885342101,
+      "key": "research-1yt2k1s"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 16: FX Daily: Dollar has lost its safe-haven crown  FX 23 October FX Daily: Dollar has lost its safe-haven crown](https://think.ing.com/articles/fx-daily-dollar-has-lost-its-safe-haven-crown/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793911717827,
+      "key": "research-1hxu57d"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 18: RBNZ to hike next week as inflation risks mount FX New Zealand 22 October RBNZ to hike next week as inflation risks mount](https://think.ing.com/articles/rbnz-to-hike-next-week-as-inflation-risks-mount/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793911717827,
+      "key": "research-eryvnc"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 63 → 58/100",
+      "detail": "premia 4.58% • spread 2.40%",
+      "importance": 2,
+      "ts": 1793911717827,
+      "key": "1gyh1e6"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar holds gains into midterms FX 2 November FX Daily: Dollar holds gains into midterms](https://think.ing.com/articles/fx-daily-dollar-holds-gains-into-midterms/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793980034850,
+      "key": "research-1krq5r8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793980034850,
+      "key": "research-ydhrhn"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 56 → 65/100",
+      "detail": "premia 4.31% • spread 2.39%",
+      "importance": 2,
+      "ts": 1793980034850,
+      "key": "1srofye"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 64/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794012847144,
+      "key": "10y02a1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 64 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794034037490,
+      "key": "1w2oeyz"
+    }
+  ]
+}
