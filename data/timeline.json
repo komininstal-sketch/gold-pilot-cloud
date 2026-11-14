@@ -1,0 +1,274 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-14T09:33:08.880Z",
+  "events": [
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Dollar holds gains into midterms FX 2 November FX Daily: Dollar holds gains into midterms](https://think.ing.com/articles/fx-daily-dollar-holds-gains-into-midterms/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793980034850,
+      "key": "research-1krq5r8"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Dollar buying returns ahead of FOMC FX 27 October FX Daily: Dollar buying returns ahead of FOMC](https://think.ing.com/articles/fx-daily-dollar-buying-returns-ahead-of-fomc/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1793980034850,
+      "key": "research-ydhrhn"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 56 → 65/100",
+      "detail": "premia 4.31% • spread 2.39%",
+      "importance": 2,
+      "ts": 1793980034850,
+      "key": "1srofye"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 64/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794012847144,
+      "key": "10y02a1"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 64 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794034037490,
+      "key": "1w2oeyz"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Dollar holds gains into midterms FX 2 November FX Daily: Dollar holds gains into midterms](https://think.ing.com/articles/fx-daily-dollar-holds-gains-into-midterms/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794217426299,
+      "key": "research-1cbrgw9"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Abatement in AI risk helps the dollar FX 28 October FX Daily: Abatement in AI risk helps the dollar](https://think.ing.com/articles/fx-daily-abatement-in-ai-risk-helps-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794217426299,
+      "key": "research-2vw8s9"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 44/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794278783261,
+      "key": "abmnc7"
+    },
+    {
+      "kind": "research",
+      "title": "ING: Meet the team Forecasts Markets",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1794306663521,
+      "key": "research-10gvkrx"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/commodities/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/commodities/",
+      "ts": 1794306663521,
+      "key": "research-1iclt7b"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Democratic sweep can weigh on the dollar FX 3 November FX Daily: Democratic sweep can weigh on the dollar](https://think.ing.com/articles/fx-daily-democratic-sweep-can-weigh-on-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794306663521,
+      "key": "research-5t98gn"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Dollar holds gains into midterms FX 2 November FX Daily: Dollar holds gains into midterms](https://think.ing.com/articles/fx-daily-dollar-holds-gains-into-midterms/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794306663521,
+      "key": "research-1t8k1kq"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 44 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794306663521,
+      "key": "1hkfrb5"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Democratic sweep can weigh on the dollar FX 3 November FX Daily: Democratic sweep can weigh on the dollar](https://think.ing.com/articles/fx-daily-democratic-sweep-can-weigh-on-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794391906591,
+      "key": "research-vex3f6"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Dollar holds gains into midterms FX 2 November FX Daily: Dollar holds gains into midterms](https://think.ing.com/articles/fx-daily-dollar-holds-gains-into-midterms/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794391906591,
+      "key": "research-e3408n"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: A dollar downturn lacks the rate ingredient FX 5 November FX Daily: A dollar downturn lacks the rate ingredient](https://think.ing.com/articles/fx-daily-a-dollar-downturn-lacks-the-rate-ingredient/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794419705009,
+      "key": "research-qnnfig"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Democratic sweep can weigh on the dollar FX 3 November FX Daily: Democratic sweep can weigh on the dollar](https://think.ing.com/articles/fx-daily-democratic-sweep-can-weigh-on-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794419705009,
+      "key": "research-1e4eih"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: A dollar downturn lacks the rate ingredient FX 5 November FX Daily: A dollar downturn lacks the rate ingredient](https://think.ing.com/articles/fx-daily-a-dollar-downturn-lacks-the-rate-ingredient/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794498969278,
+      "key": "research-11imz1r"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 9: FX Daily: Democratic sweep can weigh on the dollar FX 3 November FX Daily: Democratic sweep can weigh on the dollar](https://think.ing.com/articles/fx-daily-democratic-sweep-can-weigh-on-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794498969278,
+      "key": "research-kxobas"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   APIs Custom trading and market data access.",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1794498969278,
+      "key": "research-19zl0id"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Market insights",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/forex",
+      "ts": 1794498969278,
+      "key": "research-1vzyd7w"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 66 → 60/100",
+      "detail": "premia 4.03% • spread 2.21%",
+      "importance": 2,
+      "ts": 1794498969278,
+      "key": "11rgxd4"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 3: UK flag English](https://think.ing.com/market/fx/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794521104643,
+      "key": "research-sbevj0"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 30/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794521104643,
+      "key": "1xuswqq"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 30 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794537393492,
+      "key": "1kpvelu"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: EUR/USD gears up for a 1.10 test FX Yesterday, 07:40 FX Daily: EUR/USD gears up for a 1.10 test](https://think.ing.com/articles/fx-daily-eur-usd-gears-up-for-a-110-test/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794563919097,
+      "key": "research-ptsb28"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 15: FX Daily: Dollar rally needs more risk-off fuel FX 9 November FX Daily: Dollar rally needs more risk-off fuel](https://think.ing.com/articles/fx-daily-dollar-rally-needs-more-risk-off-fuel/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794563919097,
+      "key": "research-gww2vi"
+    },
+    {
+      "kind": "entry",
+      "title": "Jakość wejścia: 59 → 68/100",
+      "detail": "premia 3.87% • spread 2.22%",
+      "importance": 2,
+      "ts": 1794591472068,
+      "key": "i1bkya"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 34/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794610365917,
+      "key": "nj4yn2"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 34 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1794624582397,
+      "key": "13d90vy"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: FX Daily: EUR/USD gears up for a 1.10 test FX 12 November FX Daily: EUR/USD gears up for a 1.10 test](https://think.ing.com/articles/fx-daily-eur-usd-gears-up-for-a-110-test/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1794648788880,
+      "key": "research-1cwhh00"
+    }
+  ]
+}
