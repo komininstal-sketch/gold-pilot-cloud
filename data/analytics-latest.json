@@ -1,0 +1,618 @@
+{
+  "schema": 2,
+  "generatedAt": "2026-11-21T03:35:07.906Z",
+  "modules": {
+    "macro": {
+      "data": {
+        "rows": {
+          "DFII10": {
+            "id": "DFII10",
+            "date": "2026-11-19",
+            "value": 2.88
+          },
+          "DTWEXBGS": {
+            "id": "DTWEXBGS",
+            "date": "2026-11-13",
+            "value": 122.6503
+          },
+          "DGS2": {
+            "id": "DGS2",
+            "date": "2026-11-19",
+            "value": 4.76
+          },
+          "VIXCLS": {
+            "id": "VIXCLS",
+            "date": "2026-11-19",
+            "value": 28.44
+          },
+          "T10YIE": {
+            "id": "T10YIE",
+            "date": "2026-11-20",
+            "value": 2.15
+          },
+          "GEPUCURRENT": {
+            "id": "GEPUCURRENT",
+            "date": "2026-07-01",
+            "value": 241.69049100057472
+          },
+          "DFEDTARU": {
+            "id": "DFEDTARU",
+            "date": "2026-11-20",
+            "value": 4
+          },
+          "DFEDTARL": {
+            "id": "DFEDTARL",
+            "date": "2026-11-20",
+            "value": 3.75
+          }
+        },
+        "scores": {
+          "realYield": 28,
+          "dollar": 50,
+          "fed2y": 50,
+          "vix": 68,
+          "inflation": 52,
+          "uncertainty": 50
+        }
+      },
+      "fetchedAt": "2026-11-21T03:34:02.480Z",
+      "error": null
+    },
+    "events": {
+      "data": {
+        "next": {
+          "type": "RPP",
+          "ts": 1796202000000,
+          "title": "Polska • RPP / decyzja o stopach",
+          "importance": 3,
+          "source": "NBP"
+        },
+        "upcoming": [
+          {
+            "type": "RPP",
+            "ts": 1796202000000,
+            "title": "Polska • RPP / decyzja o stopach",
+            "importance": 3,
+            "source": "NBP"
+          },
+          {
+            "type": "NFP",
+            "ts": 1796391000000,
+            "title": "USA • raport z rynku pracy",
+            "importance": 3,
+            "source": "BLS"
+          },
+          {
+            "type": "FOMC",
+            "ts": 1796842800000,
+            "title": "FOMC • decyzja o stopach i komunikat",
+            "importance": 3,
+            "source": "Federal Reserve"
+          },
+          {
+            "type": "CPI",
+            "ts": 1796909400000,
+            "title": "USA • inflacja CPI",
+            "importance": 3,
+            "source": "BLS"
+          }
+        ],
+        "riskScore": 92,
+        "blocking": false
+      },
+      "fetchedAt": "2026-11-21T03:34:02.480Z",
+      "error": null
+    },
+    "flows": {
+      "data": {
+        "cot": {
+          "reportDate": "2026-11-17",
+          "openInterest": 407834,
+          "oiChange": 3109,
+          "managedLong": 121994,
+          "managedShort": 19052,
+          "managedNet": 102942,
+          "managedNetChange": -9399
+        },
+        "etf": {
+          "flowBn": null,
+          "holdingsT": null
+        },
+        "score": 47
+      },
+      "fetchedAt": "2026-11-20T22:49:25.132Z",
+      "error": null
+    },
+    "cvol": {
+      "data": {
+        "value": 34.0539
+      },
+      "fetchedAt": "2026-11-21T03:34:02.480Z",
+      "error": null
+    },
+    "politics": {
+      "data": {
+        "goldScore": 50,
+        "usdScore": 50,
+        "usdPlnScore": 50,
+        "count": 0,
+        "items": []
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "outlook": {
+      "data": {
+        "items": [
+          {
+            "org": "WGC",
+            "focus": "gold",
+            "url": "https://www.gold.org/goldhub/research/library",
+            "title": "World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+            "gold": 0,
+            "usd": 0,
+            "usdpln": 0,
+            "reasons": [],
+            "weight": 0.75,
+            "key": "1m68h6y"
+          },
+          {
+            "org": "WGC",
+            "focus": "gold",
+            "url": "https://www.gold.org/goldhub/research/library",
+            "title": "Gold Spot price",
+            "gold": 0,
+            "usd": 0,
+            "usdpln": 0,
+            "reasons": [],
+            "weight": 0.75,
+            "key": "1eyo1mz"
+          },
+          {
+            "org": "ING",
+            "focus": "fx",
+            "url": "https://think.ing.com/market/fx/",
+            "title": "![Image 9: G10 FX Outlook 2027: It’s hard to look beyond the Fed FX 12 November G10 FX Outlook 2027: It’s hard to look beyond the Fed](https://think.ing.com/articles/g10-fx-outlook-2027/)",
+            "gold": 0,
+            "usd": 0,
+            "usdpln": 0,
+            "reasons": [],
+            "weight": 1.2,
+            "key": "1fimcjv"
+          },
+          {
+            "org": "ING",
+            "focus": "fx",
+            "url": "https://think.ing.com/market/fx/",
+            "title": "![Image 15: FX Daily: EUR/USD gears up for a 1.10 test FX 12 November FX Daily: EUR/USD gears up for a 1.10 test](https://think.ing.com/articles/fx-daily-eur-usd-gears-up-for-a-110-test/)",
+            "gold": 0,
+            "usd": 0,
+            "usdpln": 0,
+            "reasons": [],
+            "weight": 1.2,
+            "key": "1kdihos"
+          }
+        ],
+        "families": [
+          "WGC",
+          "ING"
+        ],
+        "sourceCount": 2,
+        "goldSignal": 0,
+        "usdSignal": 0,
+        "usdPlnSignal": 0,
+        "plnGoldSignal": 0,
+        "score": 50,
+        "agreement": 55,
+        "direction": "NEUTRALNIE"
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "institutions": {
+      "data": {
+        "rows": [
+          {
+            "name": "J.P. Morgan",
+            "target": 6000,
+            "horizon": "XII 2026",
+            "stance": "BULLISH / WARUNKOWO",
+            "upside": 69.53941791466517,
+            "plnG": 783.2886386514836
+          },
+          {
+            "name": "UBS CIO",
+            "target": 5000,
+            "horizon": "H1 2027",
+            "stance": "BULLISH",
+            "upside": 41.28284826222097,
+            "plnG": 652.7405322095696
+          },
+          {
+            "name": "Citi",
+            "target": 5000,
+            "horizon": "2027",
+            "stance": "NEUTRALNIE → BULLISH",
+            "upside": 41.28284826222097,
+            "plnG": 652.7405322095696
+          },
+          {
+            "name": "Goldman Sachs",
+            "target": 4900,
+            "horizon": "XII 2026",
+            "stance": "BULLISH",
+            "upside": 38.45719129697655,
+            "plnG": 639.6857215653782
+          }
+        ],
+        "avgTarget": 5225,
+        "upside": 47.64057643402091,
+        "score": 92
+      },
+      "fetchedAt": "2026-11-21T03:34:02.480Z",
+      "error": null
+    },
+    "poland": {
+      "data": {
+        "nbpUsd": 4.0613,
+        "liveUsdPln": 4.0605,
+        "nbpGold": 481.23,
+        "liveGoldPlnG": 462.0097486979334,
+        "usdDiffPct": -0.019698126215739187,
+        "fusd": null,
+        "royalMint": null,
+        "pzuGold": null
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "fed": {
+      "data": {
+        "score": 50,
+        "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+        "ranges": [],
+        "best": null,
+        "currentMid": 387.5,
+        "mode": "2Y PROXY"
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "integrity": {
+      "data": {
+        "status": "OK",
+        "comexVsSpotPct": 0,
+        "nbpVsLivePct": -3.9939844361462584
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "dealerMarket": {
+      "data": {
+        "spot10": 4620.097486979334,
+        "tavexSale": 4840,
+        "tavexBuyback": 4709,
+        "premiumPct": 4.759694219449062,
+        "spreadPct": 2.706611570247934
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "entryQuality": {
+      "data": {
+        "score": 62
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "decision": {
+      "data": {
+        "title": "CZEKAJ / OBSERWUJ",
+        "detail": "perspektywa 52/100 • wejście 62/100",
+        "outlook": 52,
+        "entry": 62
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    },
+    "globalMarkets": {
+      "data": {
+        "spotUsdOz": 3539,
+        "comexUsdOz": 3539,
+        "comexBasisPct": 0
+      },
+      "fetchedAt": "2026-11-21T03:35:07.906Z",
+      "error": null
+    }
+  },
+  "snapshot": {
+    "ts": 1795232042480,
+    "iso": "2026-11-21T03:34:02.480Z",
+    "market": {
+      "xauUsd": 3539,
+      "usdPln": 4.0605,
+      "plnG": 462.0097486979334,
+      "comexGcUsdOz": 3539,
+      "eurPln": 4.4383,
+      "chfPln": 4.7986,
+      "nbpGoldPlnG": 481.23
+    },
+    "dealers": {
+      "tavex": 4840,
+      "stonex": 4879.644552,
+      "degussa": null,
+      "philoro": 4801.815062000001
+    },
+    "macro": {
+      "rows": {
+        "DFII10": {
+          "id": "DFII10",
+          "date": "2026-11-19",
+          "value": 2.88
+        },
+        "DTWEXBGS": {
+          "id": "DTWEXBGS",
+          "date": "2026-11-13",
+          "value": 122.6503
+        },
+        "DGS2": {
+          "id": "DGS2",
+          "date": "2026-11-19",
+          "value": 4.76
+        },
+        "VIXCLS": {
+          "id": "VIXCLS",
+          "date": "2026-11-19",
+          "value": 28.44
+        },
+        "T10YIE": {
+          "id": "T10YIE",
+          "date": "2026-11-20",
+          "value": 2.15
+        },
+        "GEPUCURRENT": {
+          "id": "GEPUCURRENT",
+          "date": "2026-07-01",
+          "value": 241.69049100057472
+        },
+        "DFEDTARU": {
+          "id": "DFEDTARU",
+          "date": "2026-11-20",
+          "value": 4
+        },
+        "DFEDTARL": {
+          "id": "DFEDTARL",
+          "date": "2026-11-20",
+          "value": 3.75
+        }
+      },
+      "scores": {
+        "realYield": 28,
+        "dollar": 50,
+        "fed2y": 50,
+        "vix": 68,
+        "inflation": 52,
+        "uncertainty": 50
+      }
+    },
+    "events": {
+      "next": {
+        "type": "RPP",
+        "ts": 1796202000000,
+        "title": "Polska • RPP / decyzja o stopach",
+        "importance": 3,
+        "source": "NBP"
+      },
+      "upcoming": [
+        {
+          "type": "RPP",
+          "ts": 1796202000000,
+          "title": "Polska • RPP / decyzja o stopach",
+          "importance": 3,
+          "source": "NBP"
+        },
+        {
+          "type": "NFP",
+          "ts": 1796391000000,
+          "title": "USA • raport z rynku pracy",
+          "importance": 3,
+          "source": "BLS"
+        },
+        {
+          "type": "FOMC",
+          "ts": 1796842800000,
+          "title": "FOMC • decyzja o stopach i komunikat",
+          "importance": 3,
+          "source": "Federal Reserve"
+        },
+        {
+          "type": "CPI",
+          "ts": 1796909400000,
+          "title": "USA • inflacja CPI",
+          "importance": 3,
+          "source": "BLS"
+        }
+      ],
+      "riskScore": 92,
+      "blocking": false
+    },
+    "flows": {
+      "cot": {
+        "reportDate": "2026-11-17",
+        "openInterest": 407834,
+        "oiChange": 3109,
+        "managedLong": 121994,
+        "managedShort": 19052,
+        "managedNet": 102942,
+        "managedNetChange": -9399
+      },
+      "etf": {
+        "flowBn": null,
+        "holdingsT": null
+      },
+      "score": 47
+    },
+    "cvol": {
+      "cvol": 34.0539,
+      "dailyMovePct": 2.1451940612348204,
+      "weeklyMovePct": 4.7967997458499045,
+      "lowPlnG": 452.0987430065394,
+      "highPlnG": 471.9207543893273
+    },
+    "politics": {
+      "goldScore": 50,
+      "usdScore": 50,
+      "usdPlnScore": 50,
+      "count": 0,
+      "items": []
+    },
+    "outlook": {
+      "items": [
+        {
+          "org": "WGC",
+          "focus": "gold",
+          "url": "https://www.gold.org/goldhub/research/library",
+          "title": "World Gold Council Gold Industry & CorporateGoldhub Professional InvestorsInvest.gold Individual Investors",
+          "gold": 0,
+          "usd": 0,
+          "usdpln": 0,
+          "reasons": [],
+          "weight": 0.75,
+          "key": "1m68h6y"
+        },
+        {
+          "org": "WGC",
+          "focus": "gold",
+          "url": "https://www.gold.org/goldhub/research/library",
+          "title": "Gold Spot price",
+          "gold": 0,
+          "usd": 0,
+          "usdpln": 0,
+          "reasons": [],
+          "weight": 0.75,
+          "key": "1eyo1mz"
+        },
+        {
+          "org": "ING",
+          "focus": "fx",
+          "url": "https://think.ing.com/market/fx/",
+          "title": "![Image 9: G10 FX Outlook 2027: It’s hard to look beyond the Fed FX 12 November G10 FX Outlook 2027: It’s hard to look beyond the Fed](https://think.ing.com/articles/g10-fx-outlook-2027/)",
+          "gold": 0,
+          "usd": 0,
+          "usdpln": 0,
+          "reasons": [],
+          "weight": 1.2,
+          "key": "1fimcjv"
+        },
+        {
+          "org": "ING",
+          "focus": "fx",
+          "url": "https://think.ing.com/market/fx/",
+          "title": "![Image 15: FX Daily: EUR/USD gears up for a 1.10 test FX 12 November FX Daily: EUR/USD gears up for a 1.10 test](https://think.ing.com/articles/fx-daily-eur-usd-gears-up-for-a-110-test/)",
+          "gold": 0,
+          "usd": 0,
+          "usdpln": 0,
+          "reasons": [],
+          "weight": 1.2,
+          "key": "1kdihos"
+        }
+      ],
+      "families": [
+        "WGC",
+        "ING"
+      ],
+      "sourceCount": 2,
+      "goldSignal": 0,
+      "usdSignal": 0,
+      "usdPlnSignal": 0,
+      "plnGoldSignal": 0,
+      "score": 50,
+      "agreement": 55,
+      "direction": "NEUTRALNIE"
+    },
+    "institutions": {
+      "rows": [
+        {
+          "name": "J.P. Morgan",
+          "target": 6000,
+          "horizon": "XII 2026",
+          "stance": "BULLISH / WARUNKOWO",
+          "upside": 69.53941791466517,
+          "plnG": 783.2886386514836
+        },
+        {
+          "name": "UBS CIO",
+          "target": 5000,
+          "horizon": "H1 2027",
+          "stance": "BULLISH",
+          "upside": 41.28284826222097,
+          "plnG": 652.7405322095696
+        },
+        {
+          "name": "Citi",
+          "target": 5000,
+          "horizon": "2027",
+          "stance": "NEUTRALNIE → BULLISH",
+          "upside": 41.28284826222097,
+          "plnG": 652.7405322095696
+        },
+        {
+          "name": "Goldman Sachs",
+          "target": 4900,
+          "horizon": "XII 2026",
+          "stance": "BULLISH",
+          "upside": 38.45719129697655,
+          "plnG": 639.6857215653782
+        }
+      ],
+      "avgTarget": 5225,
+      "upside": 47.64057643402091,
+      "score": 92
+    },
+    "poland": {
+      "nbpUsd": 4.0613,
+      "liveUsdPln": 4.0605,
+      "nbpGold": 481.23,
+      "liveGoldPlnG": 462.0097486979334,
+      "usdDiffPct": -0.019698126215739187,
+      "fusd": null,
+      "royalMint": null,
+      "pzuGold": null
+    },
+    "publicOutlookScore": 52,
+    "fed": {
+      "score": 50,
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "ranges": [],
+      "best": null,
+      "currentMid": 387.5,
+      "mode": "2Y PROXY"
+    },
+    "integrity": {
+      "status": "OK",
+      "comexVsSpotPct": 0,
+      "nbpVsLivePct": -3.9939844361462584
+    },
+    "dealerMarket": {
+      "spot10": 4620.097486979334,
+      "tavexSale": 4840,
+      "tavexBuyback": 4709,
+      "premiumPct": 4.759694219449062,
+      "spreadPct": 2.706611570247934
+    },
+    "entryQuality": {
+      "score": 62
+    },
+    "decision": {
+      "title": "CZEKAJ / OBSERWUJ",
+      "detail": "perspektywa 52/100 • wejście 62/100",
+      "outlook": 52,
+      "entry": 62
+    },
+    "globalMarkets": {
+      "spotUsdOz": 3539,
+      "comexUsdOz": 3539,
+      "comexBasisPct": 0
+    }
+  }
+}
