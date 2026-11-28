@@ -1,0 +1,128 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-11-28T18:16:09.506Z",
+  "events": [
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 55/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1795215044245,
+      "key": "bbq1u9"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 55 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1795232107906,
+      "key": "1rvkp4f"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 10: G10 FX Outlook 2027: It’s hard to look beyond the Fed FX 12 November G10 FX Outlook 2027: It’s hard to look beyond the Fed](https://think.ing.com/articles/g10-fx-outlook-2027/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795449205951,
+      "key": "research-oyqgm1"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 16: FX Daily: EUR/USD gears up for a 1.10 test FX 12 November FX Daily: EUR/USD gears up for a 1.10 test](https://think.ing.com/articles/fx-daily-eur-usd-gears-up-for-a-110-test/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795449205951,
+      "key": "research-1po02lf"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 50 → 66/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1795488198606,
+      "key": "1904rf3"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: Don't mess with the dollar near term FX 13 November FX Daily: Don't mess with the dollar near term](https://think.ing.com/articles/fx-daily-dont-mess-with-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795525111391,
+      "key": "research-8tluv5"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 11: G10 FX Outlook 2027: It’s hard to look beyond the Fed FX 12 November G10 FX Outlook 2027: It’s hard to look beyond the Fed](https://think.ing.com/articles/g10-fx-outlook-2027/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795525111391,
+      "key": "research-w1nf9a"
+    },
+    {
+      "kind": "fed",
+      "title": "Oczekiwania wobec Fed: 66 → 50/100",
+      "detail": "CME probabilities nieczytelne • proxy rentowności 2Y",
+      "importance": 3,
+      "ts": 1795525111391,
+      "key": "q121pp"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   APIs Custom trading and market data access.",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1795561141477,
+      "key": "research-19zl0id"
+    },
+    {
+      "kind": "research",
+      "title": "SAXO: *   Market insights",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://www.home.saxo/en-gb/insights/news-and-research/commodities",
+      "ts": 1795561141477,
+      "key": "research-1vzyd7w"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 6: FX Daily: EUR/USD gears up for a 1.10 test FX 16 November FX Daily: Time for a break below 1.10 in EUR/USD?](https://think.ing.com/articles/fx-daily-time-for-a-break-below-110-in-eur-usd/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795772490933,
+      "key": "research-1sfhog6"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: Don't mess with the dollar near term FX 13 November FX Daily: Don't mess with the dollar near term](https://think.ing.com/articles/fx-daily-dont-mess-with-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795772490933,
+      "key": "research-1nzcim0"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 7: FX Daily: EUR/USD gears up for a 1.10 test FX 16 November FX Daily: Time for a break below 1.10 in EUR/USD?](https://think.ing.com/articles/fx-daily-time-for-a-break-below-110-in-eur-usd/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795889769506,
+      "key": "research-1sfbi15"
+    },
+    {
+      "kind": "research",
+      "title": "ING: ![Image 8: FX Daily: Don't mess with the dollar near term FX 13 November FX Daily: Don't mess with the dollar near term](https://think.ing.com/articles/fx-daily-dont-mess-with-the-dollar/)",
+      "detail": "nowa analiza źródłowa",
+      "importance": 2,
+      "url": "https://think.ing.com/market/fx/",
+      "ts": 1795889769506,
+      "key": "research-2kposf"
+    }
+  ]
+}
